@@ -1,0 +1,11330 @@
+@font-face {
+	font-family: 'Conv_Carton_Six';
+	src: url('../../fonts/Carton_Six.eot');
+	src: local('☺'), url('../../fonts/Carton_Six.woff') format('woff'), url('../../fonts/Carton_Six.ttf') format('truetype'), url('../../fonts/Carton_Six.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+
+.quiz-reset-btn {
+	margin-top: 20px;
+	text-align: center
+}
+
+.quiz-answer {
+	color: #666;
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 0px
+}
+
+.validate-row {
+	align-items: baseline
+}
+
+.quiz-label {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	color: #666 !important
+}
+
+.quiz-submit {
+	background: #15a085;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px
+}
+
+.form-check-label {
+	margin-left: 20px
+}
+
+.form-check-input-row {
+	margin-bottom: 10px;
+	margin-top: 5px
+}
+
+.checkmark {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%
+}
+
+.check-row {
+	margin-left: 26px
+}
+
+.check-mark-icon {
+	width: 16px;
+	height: 20px;
+	margin-right: 10px
+}
+
+.incorrect-icon {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px
+}
+
+.inactive-quiz-container {
+	display: none
+}
+
+.active-quiz-container {
+	display: block
+}
+
+.classroom-share-div {
+	text-align: center;
+	margin-bottom: 10px
+}
+
+.google-share-col {
+	margin-bottom: 10px
+}
+
+#google-class-btn {
+	display: inline-block !important;
+	margin: 0 auto !important
+}
+
+.classShare {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	vertical-align: bottom
+}
+
+.correct-label {
+	color: green
+}
+
+.default-quiz-btn {
+	visibility: hidden
+}
+
+#quiz-score-hidden {
+	display: none
+}
+
+#quiz-score-active {
+	display: block
+}
+
+.btn:focus, .btn:active {
+	outline: none !important;
+	box-shadow: none
+}
+
+.science-active {
+	display: block
+}
+
+.science-inactive {
+	display: none
+}
+
+#science-audio {
+	margin-bottom: 20px;
+	text-align: center
+}
+
+.science-btn-group {
+	margin-bottom: 10px
+}
+
+.btn-ciencia {
+	border: 2px solid #ddd;
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px
+}
+
+.btn-ciencia-active {
+	border: 2px solid #ddd;
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	background: #ffffff;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px
+}
+
+.signature {
+	font-family: 'Allura', cursive;
+	font-size: 42px
+}
+
+.multiplication-table-col {
+	text-align: center
+}
+
+.multiplication-table {
+	border: 2px solid #00B3AF;
+	border-radius: 8px;
+	padding-top: 20px;
+	padding-bottom: 10px
+}
+
+#tabla-title {
+	margin-bottom: 10px
+}
+
+.multiplication-table-text {
+	font-family: Conv_Carton_Six;
+	font-size: 24px;
+	color: #666;
+	font-weight: bold
+}
+
+.ads-col {
+	text-align: center
+}
+
+.share-col {
+	text-align: center
+}
+
+#blog-img-center {
+	text-align: center
+}
+
+.article-share-col {
+	margin-bottom: 10px;
+	margin-top: 10px
+}
+
+.share-icon {
+	border-radius: 8px
+}
+
+.article-share-icon {
+	border-radius: 8px;
+	margin-top: 10px
+}
+
+.byline-row {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	margin-top: 10px
+}
+
+.byline-txt {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-weight: 600
+}
+
+.share-txt {
+	margin-bottom: 10px;
+	font-family: 'Muli', sans-serif;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 22px;
+	font-weight: bold
+}
+
+#byline-date {
+	position: absolute;
+	right: 0px
+}
+
+.blog-article-img {
+	border-radius: 8px
+}
+
+.blog-thumb-cards:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.blog-thumb-text {
+	color: #666
+}
+
+.share-button {
+	margin-right: 5px;
+	margin-left: 5px
+}
+
+.top-share-button {
+	margin-right: 10px
+}
+
+.article-share-button {
+	display: block;
+	margin-right: 5px;
+	margin-left: 5px
+}
+
+#card-overlay {
+	position: absolute;
+	right: 0;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	padding: 1.25rem
+}
+
+.blog-subtitle {
+	text-align: center;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Muli', sans-serif
+}
+
+#blog-author-title {
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Muli', sans-serif
+}
+
+.top-blog-row {
+	margin-top: 20px
+}
+
+.blog-body-row {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #ddd
+}
+
+.blog-card-title {
+	color: #666
+}
+
+.recursos-card-title {
+	color: #666;
+	font-size: 18px
+}
+
+.blog-card-title:hover {
+	color: #666
+}
+
+#blog-card {
+	text-align: left;
+	border: none
+}
+
+.blogCard {
+	height: 226px
+}
+
+.recursosCard {
+	height: 140px
+}
+
+.blog-feature-row {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 20px
+}
+
+#blog-recent-row {
+	border-bottom: 1px solid #ddd
+}
+
+.recent-blog-row {
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+#blog-thumbnail-btn {
+	text-align: right
+}
+
+.load-btn-div {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px
+}
+
+.blog-load-btn {
+	background: #15a085;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.blog-load-btn-hide {
+	display: none
+}
+
+.active-load {
+	display: block
+}
+
+.inactive-load {
+	display: none
+}
+
+#tag-title-div {
+	text-align: center
+}
+
+#tag-box {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 10px 10px;
+	position: relative;
+	margin-top: 20px
+}
+
+.span-txt {
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+	background: #15a085;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 7px;
+	padding-left: 7px;
+	border-radius: 6px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+	margin-right: 3px
+}
+
+.span-txt:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff
+}
+
+.blog-author-img {
+	border-radius: 5px
+}
+
+.story-info {
+	border-top: solid 1px #ddd;
+	padding-bottom: 30px
+}
+
+.scroll-up1 {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 999;
+	background: #666666;
+	border: none;
+	border-radius: 8px
+}
+
+.scroll-up {
+	display: block;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	background: #666666;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer
+}
+
+.scroll-up:hover {
+	background: #15a085
+}
+
+.animal-btn {
+	color: white;
+	background: #62D59B;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 0, 0, .25rem, .25rem
+}
+
+#animal-img-col {
+	padding-left: 0px
+}
+
+.new-animal-row {
+	background: #F0F0F0
+}
+
+.new-animal-img {
+	border-radius: 8px
+}
+
+.animal-icon-row {
+	background: #F0F0F0;
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+
+.animal-icon-col {
+	text-align: center
+}
+
+.animal-icon-div {
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px
+}
+
+#blck-div {
+	z-index: 999;
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/ABL/bgadblocker_1285.png");
+	overflow: hidden
+}
+
+.blck-img {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: inline-block
+}
+
+#puma-blck-img {
+	position: relative;
+	left: 100px;
+	width: 445px;
+	height: 454px
+}
+
+#bubble-blck-img {
+	position: relative;
+	right: 50px;
+	bottom: 20px;
+	width: 635px;
+	height: 379.34px
+}
+
+.blck-text-title {
+	position: relative;
+	left: 130px;
+	font-family: Conv_Carton_Six;
+	font-size: 44px;
+	color: #00b3af
+}
+
+#help-title {
+	font-family: Conv_Carton_Six;
+	font-size: 30px;
+	color: #fff
+}
+
+#help-text {
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	cursor: pointer
+}
+
+.blck-subtitle {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #666;
+	margin-bottom: 0px
+}
+
+.blck-text {
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+.blck-text-div {
+	width: 450px;
+	position: relative;
+	bottom: 450px;
+	left: 570px
+}
+
+#blck-btn {
+	background: #34C5A8;
+	color: #fff;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	position: relative;
+	left: 120px
+}
+
+.blck-help-div {
+	text-align: center;
+	position: relative;
+	bottom: 420px;
+	left: 600px
+}
+
+#leaderboard {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.leaderboard-container {
+	padding-top: 20px
+}
+
+#levels-leaderboard {
+	background: #00B3AF
+}
+
+#thumbnail-ad {
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+#leaderboard-img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	text-align: center
+}
+
+.game-right-col {
+	display: block;
+	margin-bottom: 20px;
+	text-align: right;
+	position: relative;
+	left: 50px
+}
+
+.game-left-col {
+	display: block;
+	margin-bottom: 20px;
+	text-align: left;
+	position: relative;
+	right: 50px
+}
+
+.video-right-col {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: right;
+	position: relative;
+	left: 50px;
+	top: 20px
+}
+
+.video-left-col {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	position: relative;
+	top: 20px;
+	right: 50px
+}
+
+.song-left-col {
+	display: block;
+	text-align: left;
+	position: relative;
+	bottom: 20px;
+	right: 50px
+}
+
+.song-rt-col {
+	display: block;
+	text-align: right;
+	position: relative;
+	left: 50px;
+	bottom: 20px
+}
+
+.landing-rt-col {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 10px;
+	right: 20px;
+	text-align: center
+}
+
+.joke-landing-rt-col {
+	display: block;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	right: 20px;
+	text-align: center
+}
+
+.coloring-rt-col {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 0px;
+	right: 5px
+}
+
+.story-rt-col {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 10px;
+	right: 5px
+}
+
+#square2 {
+	margin-top: 20px
+}
+
+.arbGameThumbnails {
+	margin-top: 15px;
+	margin-bottom: 20px
+}
+
+#anuncio-dark {
+	margin-bottom: 0px;
+	font-size: 10px;
+	color: #666;
+	text-align: center
+}
+
+#anuncio-white {
+	margin-bottom: 0px;
+	font-size: 10px;
+	color: #fff;
+	text-align: center
+}
+
+.ad-row {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 35px
+}
+
+.home-thumbnail-ad {
+	text-align: center
+}
+
+#article-title-row {
+	margin-top: 10px
+}
+
+#article-title-col {
+	text-align: left
+}
+
+#article-title-col1 {
+	text-align: center
+}
+
+#animal-crumbs {
+	margin-left: 0px
+}
+
+#article-title {
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	color: #00b3af;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	text-align: left
+}
+
+#article-text-row {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd
+}
+
+.article-subtitle {
+	color: #00b3af;
+	font-size: 28px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	margin-top: 10px;
+	margin-bottom: 0px
+}
+
+.definition-word {
+	color: #00b3af;
+	font-size: 24px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	margin-top: 10px;
+	margin-bottom: 0px
+}
+
+.definition-txt {
+	color: #666;
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	margin-top: 10px;
+	margin-bottom: 0px
+}
+
+.statistic-subtitle {
+	color: #fff;
+	font-size: 28px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	margin-top: 10px;
+	margin-bottom: 0px
+}
+
+#animal-name {
+	text-transform: lowercase
+}
+
+.article-text {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	margin-top: 10px
+}
+
+.facts-div {
+	background: #62D59B;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 8px;
+	margin-bottom: 10px
+}
+
+#fact-col {
+}
+
+#fact-row {
+	padding-bottom: 10px;
+	margin-bottom: 20px
+}
+
+.fact-title {
+	display: inline-block
+}
+
+.fact-subtitle {
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	color: #fff;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px
+}
+
+.fact-text {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	margin-top: 10px;
+	display: inline;
+	margin-left: 0px
+}
+
+.fact-item-div {
+	margin-top: 8px;
+	margin-bottom: 8px
+}
+
+.fact-checkmarks {
+	display: inline;
+	background: #62D59B;
+	color: #fff;
+	padding: 5px;
+	margin-right: 0px;
+	border-radius: 25px
+}
+
+#stats-container {
+	background: #91E48B
+}
+
+.stat-title {
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	text-transform: uppercase;
+	border-bottom: 1px solid #fff;
+	margin-top: 15px;
+	margin-bottom: 10px
+}
+
+.stat-text {
+	font-family: 'Muli', sans-serif;
+	color: #4B4A54;
+	text-align: left
+}
+
+.endangered-text {
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+	text-align: center
+}
+
+.minor {
+	background: #009933;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 15px
+}
+
+.paragraph-title {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 900
+}
+
+.paragraph-subtitle {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	font-weight: 600
+}
+
+h4 {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.historia-subtitle {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 700
+}
+
+.right-historia-img {
+	transform: rotate(3deg)
+}
+
+.left-historia-img {
+	transform: rotate(-3deg)
+}
+
+#extra-paragraph {
+	text-align: center
+}
+
+.paragraph-text {
+	font-family: 'Muli', sans-serif;
+	color: #666
+}
+
+.horizontal-paragraph-text {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	margin-bottom: 20px
+}
+
+.horizontal-paragraph-row {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.paragraph-row {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	align-items: center
+}
+
+.text-paragraph-row {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.ad-col {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto
+}
+
+.home-bottom-img {
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.fluid-bottom-img {
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px
+}
+
+#horizontal-title-col {
+	text-align: left
+}
+
+#closing-txt {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+	font-family: 'Muli', sans-serif
+}
+
+#game-charBtn-container {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.character-button-row {
+	border-bottom: solid 1px #ddd
+}
+
+#icon-bar {
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px
+}
+
+#btn-row {
+	display: inline-block;
+	text-align: center
+}
+
+.icon-img {
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#character-button-title {
+	text-align: center;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	letter-spacing: .3px;
+	font-size: 2rem;
+	margin-top: 20px;
+	margin-bottom: 10px
+}
+
+.game-icons {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.character-icons {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 20px
+}
+
+.icon-text {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #666666
+}
+
+.green-arrow {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7)
+}
+
+.white-arrow {
+	color: #fff
+}
+
+.grey-arrow {
+	color: #A0A0A0
+}
+
+.slickArrows {
+	height: 50px;
+	width: 43px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 900;
+	cursor: pointer
+}
+
+.slickArrowPrev {
+	left: 40px
+}
+
+.slickArrowNext {
+	right: 48px
+}
+
+.experimentArrowPrev {
+	left: 30px
+}
+
+.experimentArrowNext {
+	right: 38px
+}
+
+.scienceArrowNext {
+	right: -50px
+}
+
+.storyArrowNext {
+	right: 66px
+}
+
+.scienceArrowPrev {
+	left: -58px
+}
+
+.storyArrowPrev {
+	left: 0px
+}
+
+.animalArrowNext {
+	right: -45px
+}
+
+.animalArrowPrev {
+	left: -53px
+}
+
+.lectoresArrowNext {
+	right: -55px
+}
+
+.lectoresArrowPrev {
+	left: -63px
+}
+
+.scienceNext {
+	right: 6px
+}
+
+.sciencePrev {
+	left: -2px
+}
+
+.fa-3x {
+	font-size: 2.5em
+}
+
+.carousel-control-prev-icon {
+	width: 30px;
+	height: 30px
+}
+
+.carousel-control-next-icon {
+	width: 30px;
+	height: 30px
+}
+
+#game-carousel {
+	background: #e6e6e6;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px
+}
+
+.story-inner {
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
+.carousel-img {
+	border-radius: 15px
+}
+
+#game-thumbnail-title {
+	text-align: center;
+	color: #666666;
+	font-family: 'Muli', sans-serif;
+	font-weight: 700px;
+	font-size: 36px;
+	letter-spacing: 1.1px;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.carousel-card {
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	height: 200px;
+	margin-left: 7px;
+	margin-right: 7px
+}
+
+.white-carousel-card {
+	box-shadow: 1px 1px 3px #333;
+	background: #fff
+}
+
+.green-carousel-card {
+	background: #00B3AF
+}
+
+.orange-carousel-card {
+	background: #F7ac3b
+}
+
+.carousel-card:hover {
+	cursor: pointer
+}
+
+.carousel-card-body {
+	padding: 6px
+}
+
+.slick-slide img {
+	display: inline
+}
+
+.carousel-thumbnail-name {
+	text-align: left;
+	color: #666;
+	font-family: Nunito;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+	line-height: 1;
+	margin-bottom: 0px;
+	padding-bottom: 0px
+}
+
+.white-carousel-name {
+	text-align: left;
+	color: #fff;
+	font-family: Nunito;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+	line-height: 1;
+	margin-bottom: 0px;
+	padding-bottom: 0px
+}
+
+.carousel-likes {
+	color: #666;
+	font-family: Nunito;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 5px
+}
+
+.carousel-like-div {
+	position: absolute;
+	bottom: -8px
+}
+
+#experiment-title-row {
+	margin-top: 30px
+}
+
+#experiment-title {
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	color: #00b3af;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px
+}
+
+.experiment-text {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	margin-top: 10px
+}
+
+.procedure-text {
+	font-family: 'Muli', sans-serif;
+	color: black;
+	margin-top: 10px
+}
+
+#top-intro-img {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#note-row {
+	margin-top: 10px;
+	background: #62D59B;
+	border-radius: 15px;
+	margin-left: 30px;
+	margin-right: 30px
+}
+
+#note-title {
+	font-family: Conv_Carton_Six;
+	font-size: 28px;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 0px
+}
+
+.experiment-div-title {
+	margin-left: 30px;
+	font-family: Conv_Carton_Six;
+	font-size: 28px;
+	color: #00b3af;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px
+}
+
+#note-text {
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px
+}
+
+#material-row {
+	margin-top: 20px
+}
+
+.procedure-img {
+	border-radius: 15px;
+	width: 100%
+}
+
+.procedure-text-div {
+	margin-top: 10px;
+	margin-bottom: 25px
+}
+
+.procedure-row {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: #91E48B;
+	border-radius: 15px
+}
+
+.experiment-text-white {
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px
+}
+
+#discussion-div-title {
+	margin-bottom: 0px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px
+}
+
+#discussion-img {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	border-radius: 15px
+}
+
+#footer {
+	background: #15a085;
+	color: #fff
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: initial
+}
+
+#footer-subtitle-col {
+	text-align: center;
+	margin-bottom: 20px
+}
+
+.footer-subtitle {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px
+}
+
+.footer-subtitle:hover {
+	text-decoration: underline
+}
+
+#horizontal-list {
+	text-align: left;
+}
+
+#horizontal-list2 {
+	text-align: center
+}
+
+#horizontal-list li {
+	display: inline
+}
+
+#horizontal-list2 li {
+	display: inline
+}
+
+.conditions-link {
+	margin: 15px
+}
+
+.footer-link {
+	color: white
+}
+
+.footer-link:hover {
+	color: #2F4F4F
+}
+
+.footer-btn {
+	background: #3cd0b1;
+	box-shadow: 2px 2px 0 #149077;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 18px
+}
+
+.btn-success:disabled {
+	background-color: #3cd0b1 !important;
+	border-color: #3cd0b1 !important;
+	opacity: 1
+}
+
+#email-btn {
+	height: 35px;
+	width: 140px;
+	font-weight: 700
+}
+
+.footer-btn:hover {
+	background: #2F4F4F
+}
+
+#copyright-txt {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 30px
+}
+
+#social-media-list li {
+	display: inline;
+	margin-left: 0px;
+	position: relative;
+	right: 25px
+}
+
+#social-media-list {
+	margin-bottom: 25px
+}
+
+.social {
+	margin: 15px
+}
+
+.social-icons:hover {
+	transform: scale(.9);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+#link-btn {
+	margin-top: 10px
+}
+
+.form-group {
+	margin-right: 0px;
+	margin-left: 0px;
+	background: #fff
+}
+
+.form-control {
+	border: none;
+	border-radius: 0rem
+}
+
+.form-control:focus {
+	border-color: #fff !important;
+	box-shadow: none !important
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 30px white inset
+}
+
+.verify-on {
+	display: block;
+	text-align: right
+}
+
+.verify-off {
+	display: none
+}
+
+.video-js {
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden
+}
+
+#game-page-title {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	letter-spacing: .3px;
+	font-size: 40px
+}
+
+#old-game-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 8px;
+	overflow: hidden
+}
+
+#new-game-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 8px;
+	overflow: hidden
+}
+
+#portrait-game-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 57%;
+	height: 100%;
+	display: block;
+	border-radius: 8px
+}
+
+#pad60-game-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 8px;
+	overflow: hidden
+}
+
+#square-game-wrapper iframe {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black
+}
+
+#square-game-wrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 74.95%;
+	background: #fff
+}
+
+#old-game-wrapper {
+	position: relative;
+	padding-bottom: 61.7%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 8px
+}
+
+#pad60-game-wrapper {
+	position: relative;
+	padding-bottom: 55.4%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 8px
+}
+
+#new-game-wrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 8px
+}
+
+#portrait-game-wrapper {
+	position: relative;
+	padding-bottom: 70%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 8px
+}
+
+#load-div {
+	text-align: center;
+	position: relative;
+	top: 60px
+}
+
+#load-text {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 28px;
+	font-weight: 800
+}
+
+#animal-title {
+	color: #fff;
+	width: 300px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 210px
+}
+
+#animal-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_animales1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#canciones-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_canciones1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#canciones-title {
+	color: #fff;
+	font-family: Conv_Carton_Six;
+	width: 290px;
+	font-size: 30px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	position: absolute;
+	top: 145px;
+	right: 210px;
+	text-align: center
+}
+
+#cuentos-title {
+	color: #fff;
+	width: 240px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 230px
+}
+
+#cuentos-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_cuentos1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#dibujos-title {
+	color: #fff;
+	width: 200px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 250px
+}
+
+#dibujos-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_colorear1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#english-title {
+	color: #fff;
+	width: 200px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	position: absolute;
+	top: 145px;
+	right: 255px;
+	text-align: center
+}
+
+#english-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ingles1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#english-text-container {
+	position: absolute;
+	top: 160px;
+	right: 180px;
+	text-align: center
+}
+
+#frases-title {
+	color: #fff;
+	width: 200px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	right: 260px
+}
+
+#home-header {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bghome_1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+.home-level-btn {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+	width: 159px;
+	height: 177px;
+	top: 55px
+}
+
+#home-header-row {
+	text-align: center
+}
+
+#home-header-sticker {
+	width: 170px;
+	height: 142px;
+	position: relative;
+	top: 50px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.home-carousel {
+	display: none
+}
+
+#infantiles-title {
+	color: #fff;
+	width: 200px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 147.5px;
+	right: 250px
+}
+
+#infantiles-header-img {
+	background-image: url("https://res.cloudinary.com/arbol-abc/image/upload/v1521475331/Juegos%20Infantiles/Landing%20Page/bg_infantil1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#joke-title {
+	color: #fff;
+	width: 200px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 250px
+}
+
+#joke-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_chistes1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#header-character {
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	height: 280px;
+	width: 345px
+}
+
+#language-title {
+	color: #fff;
+	width: 240px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 240px
+}
+
+#language-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#exploradores-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivela_1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#curiosos-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#ingeniosos-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivelb_1960.jpg");
+	height: 330px;
+	overflow-x: hidden;
+	overflow-y: hidden
+}
+
+#mobile-other-level-img {
+	display: none
+}
+
+#level-header-img {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 340px
+}
+
+#puma-header-img {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 340px
+}
+
+#level-header-text-container {
+	position: absolute;
+	top: 20px;
+	left: 160px
+}
+
+#exploradores-header-title {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	width: 220px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	letter-spacing: .3px;
+	line-height: 1.1;
+	text-align: center;
+	position: absolute;
+	top: 35px;
+	left: 180px
+}
+
+#curiosos-header-title {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	width: 220px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	letter-spacing: .3px;
+	line-height: 1.1;
+	text-align: center;
+	position: absolute;
+	top: 40px;
+	left: 175px
+}
+
+#ingeniosos-header-title {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	width: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	letter-spacing: .3px;
+	line-height: 1.1;
+	text-align: center;
+	position: absolute;
+	top: 40px;
+	left: 170px
+}
+
+#level-icon-div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.level-header-icons {
+	position: relative;
+	top: 25px;
+	left: 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+.ingeniosos-header-icons {
+	position: relative;
+	top: 85px;
+	left: 0px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+.level-header-icons:hover {
+	transform: scale(.9);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.other-level-icons {
+	position: absolute;
+	top: 50px;
+	left: 270px
+}
+
+.other-level-img {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#levelHeader-mobile {
+	display: none
+}
+
+#puma-pepe-tv {
+	position: absolute;
+	left: 20px;
+	top: 20px
+}
+
+#math-title {
+	color: #fff;
+	width: 320px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	right: 195px
+}
+
+#multiplication-title {
+	color: #fff;
+	width: 240px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 230px
+}
+
+#math-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_math1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#navidad-title {
+	color: #fff;
+	width: 240px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 210px
+}
+
+#navidad-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Juegos_infantiles/juegos_de_navidad/Background_%20juegos_%20Navidad%20_1960_F.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#title-elems-row {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+
+#landing-title {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 32px;
+	font-weight: 900;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#landing-subtitle {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 22px;
+	font-weight: 900;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.landing-top-text {
+	font-family: 'Muli', sans-serif;
+	color: #666
+}
+
+#riddle-top-img {
+	padding-right: 0px;
+	padding-left: 30px;
+	margin-right: 0px;
+	z-index: 2
+}
+
+#riddle-title {
+	color: #fff;
+	width: 200px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: 0.3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 255px
+}
+
+#riddle-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_adivinanzas1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#science-title {
+	color: #fff;
+	width: 300px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 210px
+}
+
+#science-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ciencias1960.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#trabalenguas-title {
+	color: #fff;
+	width: 200px;
+	font-family: Conv_Carton_Six;
+	font-size: 32px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	text-align: center;
+	position: absolute;
+	top: 145px;
+	right: 255px
+}
+
+#trabalenguas-header-img {
+	background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_trabalenguas1960V1.jpg");
+	height: 330px;
+	overflow-x: hidden
+}
+
+#video-title {
+	color: #fff;
+	font-family: Conv_Carton_Six;
+	width: 290px;
+	font-size: 26px;
+	padding-top: 18px;
+	letter-spacing: .3px;
+	line-height: 45px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+	position: absolute;
+	top: 145px;
+	right: 210px;
+	text-align: center
+}
+
+.phrase-card {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid rgb(21, 160, 133, 0.7)
+}
+
+.phrase-img {
+}
+
+.phrase-title {
+	color: #666
+}
+
+.phrase-blockquote {
+	color: #666;
+	font-family: Nunito;
+	font-weight: 500
+}
+
+.share-buttons {
+	margin: 10px;
+	text-align: right
+}
+
+#icon-container {
+	background-color: #fff;
+	margin-bottom: 20px;
+	margin-top: 10px
+}
+
+.landing-icon-row {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px
+}
+
+.landing-icon-img:hover {
+	transform: scale(1.1);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.display-div {
+	display: block
+}
+
+.landing-icon-img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.icon-txt {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
+	font-weight: 500
+}
+
+a.no-underline {
+	cursor: pointer;
+	text-decoration-line: none
+}
+
+.modal-content {
+	position: absolute;
+	top: 40px;
+	left: 15%;
+	width: 70%;
+	border-radius: 0px;
+	background: black;
+	border: none;
+	z-index: 999
+}
+
+.edge-modal {
+	position: absolute;
+	top: 40px;
+	left: 30%;
+	right: 30%;
+	height: 270px;
+	border-radius: 0px;
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	z-index: 999
+}
+
+.email-modal {
+	position: absolute;
+	top: 40px;
+	left: 30%;
+	right: 30%;
+	height: 200px;
+	border-radius: 0px;
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	z-index: 999
+}
+
+.quiz-modal {
+	position: absolute;
+	top: 30px;
+	left: 20%;
+	right: 20%;
+	height: 400px;
+	border-radius: 0px;
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	z-index: 999
+}
+
+.blck-modal {
+	position: absolute;
+	top: 40px;
+	left: 5%;
+	right: 5%;
+	height: 500px;
+	border-radius: 0px;
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	z-index: 999
+}
+
+.edge-modal-text {
+	margin-top: 5%;
+	margin-bottom: 7.5%;
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	font-size: 16px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: 10px
+}
+
+#browser-img {
+	text-align: right
+}
+
+#edge-text-row {
+	display: flex;
+	align-items: center
+}
+
+.modal-text {
+	margin-top: 12.5%;
+	margin-bottom: 7.5%;
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	font-size: 16px;
+	text-align: left
+}
+
+.quiz-modal-gif {
+	margin-bottom: 1rem
+}
+
+.quiz-modal-text {
+	font-family: Conv_Carton_Six;
+	font-size: 48px;
+	color: rgb(21, 160, 133, 0.7);
+	margin-top: 20px
+}
+
+.modal-btn {
+	text-align: center;
+	color: white;
+	background: rgb(21, 160, 133)
+}
+
+#edge-btn {
+	position: relative;
+	bottom: 15px
+}
+
+#edge-logo {
+	margin-top: 1%
+}
+
+.modal-text-col {
+	text-align: center
+}
+
+.btn-col {
+	text-align: center
+}
+
+.list-number {
+	font-family: Conv_Carton_Six;
+	font-size: 36px;
+	color: #00b3af
+}
+
+.blck-modal-text {
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	font-size: 16px;
+	text-align: left;
+	line-height: 125%
+}
+
+.instruction-div {
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 4%;
+	margin-bottom: 2%
+}
+
+.blck-help-img {
+	margin-left: 5px;
+	margin-right: 5px
+}
+
+.blck-instruction-title {
+	font-family: Conv_Carton_Six;
+	font-size: 36px;
+	color: #00b3af;
+	text-align: center;
+	margin-top: 2%
+}
+
+.nav-top {
+	background: #5bd3d0
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 1) !important
+}
+
+.nav-item {
+	font-family: 'Nunito', sans-serif;
+	font-size: .9rem;
+	font-weight: 700;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 4px
+}
+
+.nav-bottom {
+	background: #00B3AF;
+	background: rgb(0, 179, 175, 0.9);
+	text-align: right
+}
+
+#nav-bottom {
+	padding-bottom: 5px
+}
+
+#nav-top {
+	background: #00B3AF;
+	background: rgb(0, 179, 175, 0.9);
+	padding-bottom: 8px;
+	padding-top: 5px
+}
+
+.nav-item2 {
+	color: #FFFFFF;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: .9rem;
+	width: 130px;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 4px
+}
+
+.nav-item:hover {
+	border-bottom: 2px solid #fff
+}
+
+.nav-item2:hover {
+	border-bottom: 2px solid #fff
+}
+
+#logo {
+	width: 210px;
+	height: 60px
+}
+
+.dropdown-item {
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-size: .9rem;
+	line-height: 150%
+}
+
+.dropdown-item:hover {
+	background-color: #e2e2e2
+}
+
+.joke-row {
+	margin-top: 10px
+}
+
+.joke-menu {
+	margin-top: 10px;
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	font-size: 18px
+}
+
+#chiste-h3 {
+	margin-bottom: 10px;
+	font-family: 'Muli', sans-serif;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center
+}
+
+.joke-menu:hover {
+	color: #007bff !important;
+	cursor: pointer
+}
+
+.menu-box {
+	border: 1px solid rgb(21, 160, 133, 0.7);
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+#riddles-row {
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+
+.riddle-card {
+	margin-bottom: 25px
+}
+
+.blue-card {
+	display: block;
+	position: relative;
+	border-width: 3px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #10cae8;
+	background-color: #f0ffff
+}
+
+.blue-title {
+	color: #10cae8
+}
+
+.green-card {
+	display: block;
+	position: relative;
+	border-width: 3px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #8cc63f;
+	background-color: #dffcdb
+}
+
+.green-title {
+	color: #8cc63f
+}
+
+.pink-card {
+	display: block;
+	position: relative;
+	border-width: 3px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #ed1e79;
+	background-color: #fce3f0
+}
+
+.pink-title {
+	color: #ed1e79
+}
+
+.orange-card {
+	display: block;
+	position: relative;
+	border-width: 3px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #f7931e;
+	background-color: #fffede
+}
+
+.orange-title {
+	color: #f7931e
+}
+
+.purple-card {
+	display: block;
+	position: relative;
+	border-width: 3px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #93278f;
+	background-color: #fce3f0
+}
+
+.purple-title {
+	color: #93278f
+}
+
+.adiv-title {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	margin-left: 20px
+}
+
+.pagination {
+	justify-content: center
+}
+
+.question {
+	display: block;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	color: #666
+}
+
+.tongue-twister {
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	color: #666
+}
+
+.blue-break {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #10cae8;
+	padding-bottom: 15px;
+	margin-bottom: 15px
+}
+
+.green-break {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8cc63f;
+	padding-bottom: 15px;
+	margin-bottom: 15px
+}
+
+.pink-break {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ed1e79;
+	padding-bottom: 15px;
+	margin-bottom: 15px
+}
+
+.orange-break {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f7931e;
+	padding-bottom: 15px;
+	margin-bottom: 15px
+}
+
+.purple-break {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #93278f;
+	padding-bottom: 15px;
+	margin-bottom: 15px
+}
+
+.answer-hide {
+	visibility: hidden;
+	font-size: 22px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #666;
+	margin-right: 20px;
+	margin-left: 20px
+}
+
+.answer {
+	visibility: visible;
+	font-size: 22px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #666;
+	margin-right: 20px;
+	margin-left: 20px
+}
+
+.riddle-btn {
+	height: 110px;
+	width: 106.2px
+}
+
+.home-slider-img {
+	text-align: center
+}
+
+#story-slider-load-div {
+	position: absolute;
+	text-align: center;
+	bottom: 150px;
+	right: 0;
+	left: 0
+}
+
+.slick-story-slider {
+	z-index: 900
+}
+
+#slick-slider-div {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+#story-slider-div {
+	margin-top: 0px;
+	margin-bottom: 20px
+}
+
+#home-slider-div {
+	border: solid 1px #ddd;
+	border-radius: 15px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.story-slider-img {
+	border-radius: 15px
+}
+
+#animal-slider-div {
+	background: #fff;
+	border-radius: 25px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+#science-slider-div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+#curriculum-slider-div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+#lectores-subarea-slider-div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+#slick-slider-title {
+	text-align: center;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	letter-spacing: .3px;
+	font-size: 2rem;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+#article-slider-row {
+	margin-bottom: 20px
+}
+
+#animal-slider-title {
+	text-align: center;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 2rem;
+	margin-top: 10px;
+	margin-bottom: 20px
+}
+
+#science-slider-title {
+	text-align: center;
+	color: #FFF;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	letter-spacing: .3px;
+	margin-top: 0px;
+	margin-bottom: 20px
+}
+
+#article-slider-col {
+	text-align: center
+}
+
+#lectores-slider-div {
+	position: absolute;
+	top: 40px;
+	left: -40px
+}
+
+.lectores-slider-img-div {
+	text-align: center
+}
+
+.lectores-slider-img {
+	border: solid 4px #959595;
+	border-radius: 12px
+}
+
+.slick-dots {
+}
+
+.slick-dots li.slick-active button:before {
+	color: #fff;
+	font-size: 12px
+}
+
+.slick-dots li button:before, .slick-next:before, .slick-prev:before {
+	font-size: 12px;
+	color: #fff
+}
+
+.slick-slider {
+	text-align: center
+}
+
+.lectores-subarea-title-col {
+	text-align: center
+}
+
+.lectores-subarea-title-row {
+	display: none
+}
+
+.testimonial-div {
+	margin-bottom: 20px
+}
+
+.testimonial-card {
+	height: 250px
+}
+
+.name-star-div {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: left
+}
+
+#social-title-img {
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.slick-avatar-col {
+	text-align: center
+}
+
+.testimonial-name {
+	display: inline-block;
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	margin-bottom: 0px
+}
+
+.testimonial-text {
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 20px
+}
+
+.stars {
+	position: absolute;
+	right: 0px;
+	width: 120px
+}
+
+#sliderBook-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	color: #666666;
+	letter-spacing: .3px;
+	font-size: 40px
+}
+
+#sliderBook-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 8px;
+	overflow: hidden
+}
+
+#sliderBook-wrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden
+}
+
+#story-crumbs {
+	margin-left: 30px;
+	margin-top: 20px
+}
+
+#story-container {
+	background: #fff;
+	border: solid 1px #ddd;
+	border-radius: 25px;
+	margin-top: 30px
+}
+
+#story-title-img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px
+}
+
+.adTest {
+	text-align: center
+}
+
+audio:focus {
+	outline: none
+}
+
+audio::-webkit-media-controls-panel {
+	background: rgb(21, 160, 133, 0.7)
+}
+
+.audio-col {
+	text-align: center
+}
+
+#story-title {
+	text-align: center;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 36px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	letter-spacing: .3px;
+	font-weight: 900
+}
+
+#blog-article-title {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 36px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	letter-spacing: .3px;
+	font-weight: 900
+}
+
+.author {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: #666
+}
+
+.summary {
+	text-align: left;
+	font-family: 'Muli', sans-serif;
+	color: #666
+}
+
+.poem {
+	text-align: center
+}
+
+.story-text {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.audio-text {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 0px
+}
+
+#moral-div {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-weight: bold;
+	font-size: 1.25rem;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#story-end-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px
+}
+
+#banner-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 4px
+}
+
+#game-text-div {
+	margin-top: 20px;
+	padding-bottom: 25px
+}
+
+#game-text-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	letter-spacing: .3px;
+	font-size: 2rem
+}
+
+#game-text {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-family: 'Muli', sans-serif;
+	color: #666666;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.42857143
+}
+
+.obj-text {
+	font-family: 'Muli', sans-serif;
+	color: #666666;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.42857143
+}
+
+.objectives-div {
+	display: inline
+}
+
+.fa-check {
+	margin-right: 10px
+}
+
+#objective-title {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: .3px;
+	font-size: 2rem;
+	margin-bottom: 20px
+}
+
+#lyric-div {
+	column-count: 2;
+	column-gap: 20px;
+	column-width: 200px
+}
+
+.blocktext {
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+	color: #666666;
+	margin-top: 0;
+	margin-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.42857143
+}
+
+#primary-txt-title {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 32px;
+	font-weight: 900;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+	margin-top: 20px
+}
+
+#txt-title {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 32px;
+	font-weight: 900;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+.joke-txt-title {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 32px;
+	font-weight: 900;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+.primary-landing-txt {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	margin-bottom: 20px
+}
+
+.user-conditions-title {
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 12px
+}
+
+.secondary-conditions {
+	color: #666666
+}
+
+.primary-conditions {
+	color: #666666
+}
+
+.primary-conditions-div {
+	margin-top: 20px
+}
+
+.user-conditions-text {
+	font-family: 'Muli', sans-serif;
+	font-size: 10px
+}
+
+.thumbnail-container {
+	margin-bottom: 10px
+}
+
+.no-title {
+	display: none
+}
+
+.filter-arrow-div {
+	display: none
+}
+
+.thumbnail-div-row {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px
+}
+
+.thumb-img {
+	border-radius: 8px 8px 0px 0px
+}
+
+.dibujo-img {
+	border-radius: 8px 8px 0px 0px;
+	border-top: solid 2px #ddd;
+	border-left: solid 2px #ddd;
+	border-right: solid 2px #ddd
+}
+
+#thumbnail-title {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-weight: 900;
+	font-size: 28px;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+#secondary-thumbnail-title {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 1.2;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+#science-thumbnail-title {
+	text-align: center;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 1.2;
+	margin-bottom: 20px
+}
+
+.thumbnail-card {
+	border-radius: 8px 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none
+}
+
+.green-science {
+	background: #A1BF38
+}
+
+.purple-science {
+	background: #AB6BC9
+}
+
+.orange-science {
+	background: #DD5342
+}
+
+.blue-science {
+	background: #5F96D7
+}
+
+.pink-science {
+	background: #ED1E79
+}
+
+.thumbnail-card:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.new-thumbnail-card:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.like-heart-img:hover {
+	transform: scale(1.25);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.thumbnail-card-body {
+	padding: 6px;
+	position: relative;
+	height: 95px;
+	border-radius: 0px 0px 8px 8px
+}
+
+.math-card {
+	background: #3498db
+}
+
+.multiplication-card {
+	background: #00B3AF
+}
+
+.lenguaje-card {
+	background: #0bc483
+}
+
+.english-card {
+	background: #f7843b
+}
+
+.diversion-card {
+	background: #ac66cc
+}
+
+.new-diversion-card {
+	background: #19B5B3
+}
+
+.reading-card {
+	background: #e83174
+}
+
+.song-card {
+	background: #17bee4
+}
+
+.dibujo-card {
+	background: #F7ac3b
+}
+
+.home-card {
+	background: #19d18e
+}
+
+.white-card {
+	background: #fff
+}
+
+.science-card-body {
+	padding: 6px;
+	position: relative
+}
+
+.primary-age-range {
+	position: absolute;
+	bottom: 90px;
+	right: 5px;
+	z-index: 0
+}
+
+.subarea-age-range {
+	width: 35px;
+	height: 36px;
+	position: absolute;
+	bottom: 85px;
+	right: 10px;
+	z-index: 0
+}
+
+.new-thumbnail-card {
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px #333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 230px
+}
+
+.new-thumbnail-card-body {
+	padding: 6px;
+	position: relative
+}
+
+.new-thumb-img {
+	border-radius: 15px
+}
+
+.thumbnail-txt {
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	position: absolute;
+	bottom: 0px
+}
+
+.thumbnail-txt-dark {
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+	color: #666;
+	position: absolute;
+	bottom: 0px
+}
+
+.science-thumbnail-name {
+	color: #fff;
+	font-family: Nunito;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+	line-height: 1;
+	margin-bottom: 0px;
+	padding-bottom: 0px
+}
+
+.thumbnail-name {
+	color: #fff;
+	font-family: Nunito;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+	line-height: 1;
+	margin-bottom: 0px;
+	padding-bottom: 0px
+}
+
+.thumbnail-name-dark {
+	color: #666;
+	font-family: Nunito;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+	line-height: 1;
+	margin-bottom: 0px;
+	padding-bottom: 0px
+}
+
+.science-thumbnail-title {
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	position: absolute;
+	bottom: 0px
+}
+
+.thumb-like-div {
+	position: absolute;
+	bottom: -8px
+}
+
+.level-thumb-img {
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+.thumbnail-likes {
+	color: #666;
+	font-family: Nunito;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 5px
+}
+
+.science-thumbnail-likes {
+	color: #fff;
+	font-family: Nunito;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 5px
+}
+
+.level-dropdown {
+	width: 30px;
+	height: 30px
+}
+
+.panel-title-container {
+	margin-top: 15px;
+	text-align: center;
+	position: relative;
+	left: 40px
+}
+
+.panel-icon-div {
+	margin-top: 5px;
+	text-align: left
+}
+
+.panel-row {
+	margin-bottom: 10px;
+	margin-top: 10px
+}
+
+.filter-btn {
+	display: inline-block;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #fff;
+	border: none
+}
+
+.filter-btn:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.filter-input:focus {
+	outline: none
+}
+
+.highlighted-filter {
+	border-bottom: 3px solid #3498db
+}
+
+.filter-txt {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	bottom: 10px;
+	margin-bottom: 0px
+}
+
+.lenguaje-txt {
+	color: #0bc483
+}
+
+.math-txt {
+	color: #3498db
+}
+
+.english-txt {
+	color: #f7843b
+}
+
+.diversion-txt {
+	color: #ac66cc
+}
+
+.lectura-txt {
+	color: #e83174
+}
+
+.filter-btn:focus {
+	outline: none;
+	border-bottom: 3px solid #3498db
+}
+
+#border-div {
+	margin-top: 20px;
+	border-bottom: solid 1px #ddd
+}
+
+.showThumb {
+	display: block
+}
+
+.hideThumb {
+	display: none
+}
+
+.level-thumb-row {
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 30px
+}
+
+#active-player {
+	display: block
+}
+
+#inactive-player {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important
+}
+
+#sticky-container {
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	width: 256px;
+	height: 144px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition-property: opacity, visibility;
+	-moz-transition-property: opacity, visibility;
+	transition-property: opacity, visibility;
+	-webkit-transition-duration: .4s;
+	-moz-transition-duration: .4s;
+	transition-duration: .4s;
+	-webkit-transition-timing-function: ease-in;
+	-moz-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+	z-index: 999
+}
+
+.videoAd-col {
+	text-align: center
+}
+
+#closeout-btn {
+	position: relative;
+	left: 190px
+}
+
+#new-video-container {
+	width: 256px;
+	height: 144px;
+	display: inline-block;
+	margin-right: 0;
+	margin-left: 0;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition-property: opacity, visibility;
+	-moz-transition-property: opacity, visibility;
+	transition-property: opacity, visibility;
+	-webkit-transition-duration: .4s;
+	-moz-transition-duration: .4s;
+	transition-duration: .4s;
+	-webkit-transition-timing-function: ease-in;
+	-moz-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+	z-index: 999
+}
+
+#closeout {
+}
+
+.margin-top-20 {
+	margin-top: 20px
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px
+}
+
+#content2_video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 8px
+}
+
+#curriculum-page-title {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #ddd
+}
+
+#curriculum-content-row {
+	margin-top: 30px;
+	margin-bottom: 50px
+}
+
+.curriculum-btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer
+}
+
+.curriculum-btn:hover {
+	transform: scale(1.1);
+	opacity: 1.0;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: initial;
+	transition-delay: initial
+}
+
+.hide-class {
+	display: none
+}
+
+.fade-class {
+	opacity: 0.4
+}
+
+#curriculum-btn-div {
+	text-align: center
+}
+
+.curriculum-title-div {
+	text-align: left
+}
+
+.curriculum-icon-title {
+	display: inline-block;
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 0px;
+	margin-left: 5px;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #ddd
+}
+
+.curriculum-subtitle {
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: .95rem
+}
+
+.curriculum-text-div {
+	line-height: 1.2
+}
+
+.curriculum-text {
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-size: .95rem
+}
+
+#curriculum-sm {
+	display: none
+}
+
+.curriculum-card-header {
+	background: #fff
+}
+
+.fa-caret-down {
+	color: #666;
+	position: absolute;
+	right: 0px
+}
+
+#curriculum-slider {
+	background: #15A085;
+	background: rgb(21, 160, 133, 0.7);
+	padding-bottom: 20px
+}
+
+.breadcrumb {
+	background-color: #fff;
+	padding-bottom: 0px
+}
+
+.breadcrumb-item {
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px
+}
+
+#dibujo-title-div {
+	margin-bottom: 20px;
+	text-align: left
+}
+
+#dibujo-title-span {
+	display: inline-block;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	color: #00b3af;
+	font-size: 32px;
+	margin-right: 15px
+}
+
+#dibujo-title {
+	display: inline-block;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+	font-size: 32px;
+	color: #666
+}
+
+.coloring-side-div {
+	margin-top: 10px
+}
+
+.coloring-text {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	color: #666;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 10px
+}
+
+.coloring-side-title {
+	font-family: 'Muli', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: #3498db;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px
+}
+
+.coloring-stats {
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	color: #666;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.stat-text {
+	margin-left: 5px
+}
+
+.coloring-stat-div {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto
+}
+
+#coloring-btn-div {
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 0px
+}
+
+#prinatable-puzzle-page {
+	overflow: hidden
+}
+
+#coloring-btn {
+	background-color: #62D59B;
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 15px;
+	text-align: center
+}
+
+#dibujo-img-div {
+	display: block;
+	text-align: center
+}
+
+.print-icon {
+	margin-right: 7px
+}
+
+.portrait-img {
+	width: 80%;
+	margin-bottom: 10px
+}
+
+.landscape-img {
+	width: 100%;
+	margin-bottom: 10px
+}
+
+.portrait-puzzle {
+	width: 80%;
+	margin-bottom: 10px
+}
+
+.coloring-page-slider {
+	border-top: 1px solid #ddd
+}
+
+#frase-educativa-div {
+	overflow: hidden
+}
+
+#frase-pagination-row {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+#game-div {
+	background: #fff;
+	background-repeat: repeat;
+	padding-bottom: 0px;
+	overflow: hidden
+}
+
+.game-ad-col {
+	position: relative;
+	top: -30px
+}
+
+#experiment-div {
+	overflow: hidden
+}
+
+#game-content {
+	padding-left: 225px;
+	padding-right: 225px
+}
+
+.game-text-div {
+	border-top: solid 1px #ddd
+}
+
+.game-character-div {
+	border-top: solid 1px #ddd;
+	border-bottom: solid 1px #ddd
+}
+
+.page-container {
+	overflow: hidden
+}
+
+#historia-title-row {
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+
+#historia-title-col {
+	text-align: center
+}
+
+#historia-title {
+	font-family: 'Muli', sans-serif;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 40px;
+	font-weight: 900;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #15A085;
+	border-bottom: 1px solid rgb(21, 160, 133, 0.7)
+}
+
+#historia-page {
+	margin-bottom: 30px
+}
+
+#ingeniosos-page {
+	overflow-x: hidden
+}
+
+#ingeniosos-thumbnail-row {
+	background: #00b3af;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+#icon-slide-row {
+	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	display: flex;
+	align-items: center
+}
+
+#sunglass-div {
+	text-align: center
+}
+
+#lectores-thumbnail-row {
+	padding-bottom: 20px;
+	border-bottom: solid 1px #ddd
+}
+
+#link-page-title-div {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+
+#link-title-row {
+	margin-top: 20px;
+	margin-bottom: 10px
+}
+
+#link-page-title {
+	font-family: 'Muli', sans-serif;
+	color: rgb(21, 160, 133, 0.7);
+	font-weight: 900;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #15A085;
+	border-bottom: 1px solid rgb(21, 160, 133, 0.7)
+}
+
+#instruction-col {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd
+}
+
+#link-page-subtitle {
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 900
+}
+
+.link-page-text {
+	font-family: 'Muli', sans-serif;
+	color: #666
+}
+
+#link-div-row {
+	margin-top: 20px;
+	margin-bottom: 50px
+}
+
+.link-img-col {
+	text-align: right
+}
+
+.link-name-col {
+	text-align: left
+}
+
+.link-name {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-weight: 900;
+	font-size: 20px
+}
+
+.link-div {
+	margin-bottom: 40px;
+	margin-top: 20px
+}
+
+.code-div {
+	background: #ccc;
+	border-radius: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.code-text {
+	font-family: 'Muli', sans-serif;
+	color: #333
+}
+
+#methodology-title {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-weight: 900;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 36px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.methodology-text {
+	font-family: 'Muli', sans-serif;
+	color: grey;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.method-title-txt-row {
+	border-bottom: solid 1px #ddd;
+	margin-bottom: 30px
+}
+
+.methodology-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.meto-img-title {
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-size: 20px;
+	font-weight: 900
+}
+
+.meto-img-txt {
+	font-family: 'Muli', sans-serif;
+	color: grey;
+	font-size: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: 55px;
+	margin-right: 55px
+}
+
+#plato {
+	position: relative;
+	bottom: 25px
+}
+
+#meto-h2 {
+	font-family: 'Muli', sans-serif;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	font-weight: 900;
+	text-align: center;
+	font-size: 32px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#intelligences-img {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#meto-end-txt {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: left
+}
+
+#intelligences-img-mobile {
+	display: none
+}
+
+#not-found-row {
+	margin-top: 70px;
+	margin-bottom: 50px
+}
+
+#not-found-jumbotron {
+	border-radius: 15px
+}
+
+.btn-not-found {
+	background-color: #00b3af;
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 15px;
+	text-align: center
+}
+
+.not-found-title {
+	font-family: Conv_Carton_Six;
+	color: #666;
+	text-align: center
+}
+
+.not-found-subtitle {
+	font-family: 'Nunito', sans-serif;
+	color: #666
+}
+
+#science-slider {
+	background: #15A085;
+	background: rgb(21, 160, 133, 0.7)
+}
+
+#science-fact-row {
+	margin-bottom: 10px
+}
+
+.slick-row {
+	border-bottom: solid 1px #ddd;
+	border-top: solid 1px #ddd;
+	margin-bottom: 30px;
+	margin-top: 10px
+}
+
+.animal-slide-row {
+	border-bottom: solid 1px #ddd;
+	margin-bottom: 30px;
+	border-top: solid 1px #ddd;
+	margin-top: 20px
+}
+
+.banner-div {
+	text-align: center;
+	margin-bottom: 20px
+}
+
+.science-carousel-div {
+	border-bottom: solid 1px #ddd;
+	border-top: solid 1px #ddd;
+	margin-bottom: 30px
+}
+
+.ogro-row {
+	display: flex;
+	align-items: center
+}
+
+.experiment-ogro-row {
+	display: flex
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+#sliderBook-div {
+	padding-bottom: 40px;
+	overflow: hidden
+}
+
+#sliderBook-content {
+	padding-left: 225px;
+	padding-right: 225px
+}
+
+#social-title-col {
+	text-align: center
+}
+
+.social-subtitle-col {
+	text-align: center;
+	border-top: solid 1px #ddd;
+	margin-top: 10px;
+	padding-top: 20px
+}
+
+.social-testimonial-col {
+	text-align: center;
+	margin-top: 10px
+}
+
+#social-title {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #ddd
+}
+
+#social-title-img {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.social-text {
+	font-family: 'Nunito', sans-serif;
+	color: #666;
+	margin-right: auto;
+	margin-left: auto
+}
+
+#social-text-col {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.social-subtitle {
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 20px
+}
+
+.impact-subtitle {
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-size: 32px;
+	margin-top: 10px
+}
+
+.testimonial-data-row {
+	margin-top: 20px;
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 20px
+}
+
+.testimonial-data-col {
+	text-align: center
+}
+
+.impact-icons {
+	text-align: center
+}
+
+.impact-icon-title {
+	color: #666;
+	font-family: 'Nunito', sans-serif
+}
+
+.impact-icon-stat {
+	color: #666;
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	margin-top: 20px;
+	margin-bottom: 10px
+}
+
+.company-logos {
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.company-logo-col {
+	text-align: center
+}
+
+.company-logo-row {
+	margin-bottom: 30px
+}
+
+.companies-row {
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+#song-div {
+	background: #fff;
+	background-repeat: repeat;
+	padding-bottom: 40px;
+	overflow: hidden
+}
+
+#song-content {
+	padding-left: 225px;
+	padding-right: 225px
+}
+
+#story-div {
+	padding-bottom: 40px
+}
+
+#story-content {
+	padding-left: 225px;
+	padding-right: 225px
+}
+
+#book-text-div {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.game-slide-div {
+	border-top: solid 1px #ddd
+}
+
+#title {
+	font-family: 'Muli', sans-serif;
+	font-size: 36px;
+	font-weight: 900;
+	border-bottom: solid 1px #ddd;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	display: inline-block
+}
+
+#character-img {
+	position: relative;
+	right: 35px;
+	width: 380px;
+	height: 433px
+}
+
+.cookie-subtext {
+	text-decoration: underline solid #666
+}
+
+.terms-question-div {
+	margin-bottom: 8px;
+	margin-left: 30px
+}
+
+.terms-question {
+	font-family: 'Muli', sans-serif;
+	color: #666
+}
+
+.fa {
+	margin-left: 5px
+}
+
+.terms-answers {
+	font-family: 'Muli', sans-serif;
+	color: #666;
+	margin-bottom: 10px;
+	margin-top: 5px
+}
+
+ol.alpha {
+	list-style-type: lower-alpha
+}
+
+#character-img {
+	position: relative;
+	bottom: 50px
+}
+
+.videocuento-div {
+	text-align: center
+}
+
+#landing-thumbnail-row {
+	background: #ffffff;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+#gradient1 {
+	width: 300px;
+	background-color: #1fc8db;
+	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	opacity: 0.95;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-radius: 8px
+}
+
+#gradient2 {
+	width: 300px;
+	background-color: #8855a0;
+	background-image: linear-gradient(141deg, #ab6bc9 0%, #8855a0 51%, #664078 75%);
+	opacity: 0.95;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-radius: 8px
+}
+
+#gradient3 {
+	width: 300px;
+	background-color: #00a19d;
+	background-image: linear-gradient(141deg, #00b3af 0%, #00a19d 51%, #008f8c 75%);
+	opacity: 0.95;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-radius: 8px
+}
+
+#sidebar-trivia-title {
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Conv_Carton_Six
+}
+
+#fact-title-div {
+	text-align: center
+}
+
+#sidebar-fact-title {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Conv_Carton_Six
+}
+
+#sidebar-joke-title {
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Conv_Carton_Six
+}
+
+#sidebar-fact-img {
+	display: inline-block;
+	margin-right: 10px
+}
+
+.sidebar-fact {
+	color: white;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif
+}
+
+#sidebar-trivia-question {
+	color: white;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif
+}
+
+.hidden-sidebar-trivia-answer {
+	display: none
+}
+
+.hide-button {
+	display: none
+}
+
+.sidebar-trivia-answer {
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif
+}
+
+.sidebar-trivia-btn {
+	text-align: center;
+	margin-top: 20px
+}
+
+#homePage-thumbnail-row {
+	background: #00b3af;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+.slider-row {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd
+}
+
+.user-row {
+	border-top: solid 1px #ddd;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: left
+}
+
+.user-row-2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: left
+}
+
+.lectores-icon {
+	height: 155px;
+	width: 155px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.prelectores-icon-row {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	margin-top: 10px
+}
+
+.lectores-icon-row {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	margin-top: 30px
+}
+
+.prelectores-bold {
+	font-size: 18px;
+	font-weight: bold;
+	color: #15A085;
+	color: rgb(21, 160, 133, 0.7);
+	width: 850px
+}
+
+#lectores-title {
+	color: #f7843b
+}
+
+.lectores-bold {
+	font-size: 18px;
+	font-weight: bold;
+	color: #f7843b;
+	width: 850px
+}
+
+#lectores-thumbnail-container {
+	padding-top: 0px
+}
+
+@media only screen and (max-width:1799px) {
+	.storyArrowNext {
+		right: 35px
+	}
+
+	#puma-pepe-tv {
+		left: 70px
+	}
+
+	#lectores-slider-div {
+		position: absolute;
+		top: 40px;
+		left: 60px
+	}
+
+}
+
+@media only screen and (max-width:1700px) {
+	.other-level-icons {
+		left: 210px
+	}
+
+	#game-content {
+		padding-left: 150px;
+		padding-right: 100px
+	}
+
+	#sliderBook-content {
+		padding-left: 150px;
+		padding-right: 100px
+	}
+
+	#song-content {
+		padding-left: 150px;
+		padding-right: 100px
+	}
+
+	#story-content {
+		padding-left: 150px;
+		padding-right: 100px
+	}
+
+}
+
+@media only screen and (max-width:1681px) {
+	#canciones-title {
+		right: 210px
+	}
+
+	#video-title {
+		right: 210px
+	}
+
+}
+
+@media only screen and (max-width:1640px) {
+	.other-level-icons {
+		left: 198px
+	}
+
+}
+
+@media only screen and (max-width:1599px) {
+	.storyArrowNext {
+		right: 6px
+	}
+
+}
+
+@media only screen and (max-width:1590px) {
+	.other-level-icons {
+		position: absolute;
+		left: 187px
+	}
+
+	.level-header-icons {
+		left: 40px
+	}
+
+}
+
+@media only screen and (max-width:1540px) {
+	.lectores-slider-img {
+		width: 394px;
+		height: 222px
+	}
+
+	#lectores-slider-div {
+		left: 50px;
+		top: 60px
+	}
+
+	#animal-title {
+		right: 130px
+	}
+
+	#canciones-title {
+		right: 130px
+	}
+
+	#cuentos-title {
+		right: 160px
+	}
+
+	#dibujos-title {
+		right: 180px
+	}
+
+	#english-text-container {
+		right: 100px
+	}
+
+	#english-title {
+		right: 180px
+	}
+
+	#frases-title {
+		right: 180px
+	}
+
+	#infantiles-title {
+		right: 180px
+	}
+
+	#joke-title {
+		right: 180px
+	}
+
+	#header-character {
+		position: absolute;
+		top: 80px;
+		right: 0px;
+		height: 250px;
+		width: 308px
+	}
+
+	#language-title {
+		right: 160px
+	}
+
+	.other-level-icons {
+		position: absolute;
+		left: 172px
+	}
+
+	.level-header-icons {
+		top: 40px;
+		left: 30px;
+		width: 135px;
+		height: 108px
+	}
+
+	.ingeniosos-header-icons {
+		top: 85px;
+		left: 15px;
+		width: 135px;
+		height: 108px
+	}
+
+	#level-header-img {
+		top: 80px;
+		left: 310px;
+		width: 308px;
+		height: 250px
+	}
+
+	#puma-header-img {
+		width: 308px;
+		height: 250px;
+		top: 80px;
+		left: 340px
+	}
+
+	#level-header-text-container {
+		width: 247.5px;
+		height: 184px;
+		top: 20px;
+		left: 150px
+	}
+
+	#exploradores-header-title {
+		top: 35px;
+		left: 160px
+	}
+
+	#curiosos-header-title {
+		top: 35px;
+		left: 160px
+	}
+
+	#ingeniosos-header-title {
+		font-size: 23px;
+		width: 240px;
+		top: 45px;
+		left: 155px
+	}
+
+	#puma-pepe-tv {
+		width: 468px;
+		height: 265px;
+		top: 40px
+	}
+
+	#math-title {
+		right: 115px
+	}
+
+	#multiplication-title {
+		right: 160px
+	}
+
+	#navidad-title {
+		right: 130px
+	}
+
+	#riddle-title {
+		right: 175px
+	}
+
+	#science-title {
+		right: 130px
+	}
+
+	#trabalenguas-title {
+		right: 175px
+	}
+
+	#video-title {
+		right: 130px
+	}
+
+}
+
+@media only screen and (max-width:1500px) {
+	#game-content {
+		padding-left: 100px;
+		padding-right: 50px
+	}
+
+	#sliderBook-content {
+		padding-left: 100px;
+		padding-right: 50px
+	}
+
+	#song-content {
+		padding-left: 100px;
+		padding-right: 50px
+	}
+
+	#story-content {
+		padding-left: 100px;
+		padding-right: 50px
+	}
+
+}
+
+@media only screen and (max-width:1480px) {
+	.other-level-icons {
+		position: absolute;
+		left: 159px
+	}
+
+}
+
+@media only screen and (max-width:1479px) {
+	#lectores-slider-div {
+		left: 70px
+	}
+
+}
+
+@media only screen and (max-width:1420px) {
+	.other-level-icons {
+		position: absolute;
+		left: 155px;
+		top: 65px
+	}
+
+	.other-level-img {
+		width: 186.26px;
+		height: 73px;
+		margin-top: 7px;
+		margin-bottom: 7px
+	}
+
+}
+
+@media only screen and (max-width:1400px) {
+	#story-content {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 90px;
+		margin-right: 100px
+	}
+
+	#song-content {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 90px;
+		margin-right: 100px
+	}
+
+	#game-content {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 90px;
+		margin-right: 100px
+	}
+
+	#sliderBook-content {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 90px;
+		margin-right: 100px
+	}
+
+	#animal-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_animales1500.jpg")
+	}
+
+	#canciones-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_canciones.jpg")
+	}
+
+	#cuentos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_cuentos1500.jpg")
+	}
+
+	#dibujos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_colorear1500.jpg")
+	}
+
+	#english-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ingles1500.jpg")
+	}
+
+	#home-header {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgHome.jpg")
+	}
+
+	#infantiles-header-img {
+		background-image: url("https://res.cloudinary.com/arbol-abc/image/upload/v1521475331/Juegos%20Infantiles/Landing%20Page/bg_infantil1500.jpg")
+	}
+
+	#joke-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_chistes1500.jpg")
+	}
+
+	#language-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage1500.jpg")
+	}
+
+	#exploradores-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivela_1500.jpg")
+	}
+
+	#curiosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage1500.jpg")
+	}
+
+	#ingeniosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivelb_1500.jpg")
+	}
+
+	#math-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_math1500.jpg")
+	}
+
+	#navidad-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Juegos_infantiles/juegos_de_navidad/Background_%20juegos_%20Navidad%20_1500_F.jpg")
+	}
+
+	#riddle-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_adivinanzas1500.jpg")
+	}
+
+	#science-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ciencias1500.jpg")
+	}
+
+	#trabalenguas-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_trabalenguas1500V1.jpg")
+	}
+
+}
+
+@media only screen and (max-width:1399px) {
+	#lectores-slider-div {
+		left: 85px
+	}
+
+}
+
+@media only screen and (max-width:1360px) {
+	.other-level-icons {
+		position: absolute;
+		left: 142px;
+		top: 65px
+	}
+
+	#level-header-text-container {
+		left: 120px
+	}
+
+	#exploradores-header-title {
+		left: 135px
+	}
+
+	#curiosos-header-title {
+		left: 130px
+	}
+
+	#ingeniosos-header-title {
+		left: 125px
+	}
+
+	#level-header-img {
+		left: 280px
+	}
+
+	#puma-header-img {
+		left: 280px
+	}
+
+	.level-header-icons {
+		;
+		left: 15px
+	}
+
+	.ingeniosos-header-icons {
+		left: 0px;
+		top: 100px
+	}
+
+}
+
+@media only screen and (max-width:1310px) {
+	.other-level-icons {
+		left: 130px
+	}
+
+}
+
+@media only screen and (max-width:1281px) {
+	#lectores-slider-div {
+		position: relative;
+		top: -215px;
+		left: 27px
+	}
+
+	.lectores-slider-img {
+		width: 360px;
+		height: 203px
+	}
+
+	#animal-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_animales1285.jpg");
+		height: 260px
+	}
+
+	#animal-title {
+		top: 78px;
+		right: 90px
+	}
+
+	#canciones-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_canciones_1285x290.jpg");
+		height: 260px
+	}
+
+	#canciones-title {
+		top: 80px;
+		right: 92px
+	}
+
+	#cuentos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_cuentos1285.jpg");
+		height: 260px
+	}
+
+	#cuentos-title {
+		top: 78px;
+		right: 120px
+	}
+
+	#dibujos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_colorear1285.jpg");
+		height: 260px
+	}
+
+	#dibujos-title {
+		top: 78px;
+		right: 140px
+	}
+
+	#english-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ingles1285.jpg");
+		height: 260px
+	}
+
+	#english-title {
+		color: #fff;
+		width: 200px;
+		font-family: Conv_Carton_Six;
+		font-size: 32px;
+		padding-top: 18px;
+		letter-spacing: .3px;
+		line-height: 45px;
+		text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+		position: absolute;
+		top: 75px;
+		right: 130px
+	}
+
+	#english-text-container {
+		position: absolute;
+		top: 90px;
+		right: 60px;
+		text-align: center
+	}
+
+	#frases-title {
+		top: 78px;
+		right: 135px
+	}
+
+	#home-header {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgHome1300x280N.jpg");
+		height: 260px
+	}
+
+	.home-level-btn {
+		position: relative;
+		top: 35px
+	}
+
+	#infantiles-header-img {
+		background-image: url("https://res.cloudinary.com/arbol-abc/image/upload/v1521475331/Juegos%20Infantiles/Landing%20Page/bg_infantil1285.jpg");
+		height: 260px
+	}
+
+	#infantiles-title {
+		top: 78px;
+		right: 135px
+	}
+
+	#joke-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_chistes1285.jpg");
+		height: 260px
+	}
+
+	#joke-title {
+		top: 78px;
+		right: 140px
+	}
+
+	#header-character {
+		top: 40px;
+		right: 40px;
+		width: 271px;
+		height: 220px
+	}
+
+	#language-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage1285.jpg");
+		height: 260px
+	}
+
+	#language-title {
+		top: 78px;
+		right: 120px
+	}
+
+	#exploradores-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivela_1285.jpg");
+		height: 260px
+	}
+
+	#curiosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage1285.jpg");
+		height: 260px
+	}
+
+	#ingeniosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivelb_1285.jpg");
+		height: 260px
+	}
+
+	#level-header-img {
+		width: 271px;
+		height: 220px;
+		top: 40px;
+		left: 260px
+	}
+
+	#puma-header-img {
+		width: 271px;
+		height: 220px;
+		top: 40px;
+		left: 270px
+	}
+
+	#level-header-text-container {
+		width: 230px;
+		height: 171px;
+		top: 20px;
+		left: 100px
+	}
+
+	#exploradores-header-title {
+		width: 220px;
+		font-size: 24px;
+		top: 25px;
+		left: 105px
+	}
+
+	#curiosos-header-title {
+		width: 220px;
+		font-size: 23px;
+		top: 30px;
+		left: 103px
+	}
+
+	#ingeniosos-header-title {
+		text-align: left;
+		width: 210px;
+		font-size: 21px;
+		top: 25px;
+		left: 113px
+	}
+
+	.level-header-icons {
+		top: 25px;
+		left: 20px;
+		width: 120px;
+		height: 96px
+	}
+
+	.ingeniosos-header-icons {
+		position: relative;
+		top: 65px;
+		left: 20px;
+		width: 120px;
+		height: 96px;
+		margin-top: 14px;
+		margin-bottom: 14px;
+		margin-left: 10px;
+		margin-right: 10px
+	}
+
+	.other-level-icons {
+		position: absolute;
+		top: 50px;
+		left: 123px
+	}
+
+	.other-level-img {
+		width: 186.26px;
+		height: 73px;
+		margin-top: 7px;
+		margin-bottom: 7px
+	}
+
+	#puma-pepe-tv {
+		position: relative;
+		left: 20px;
+		top: 10px;
+		width: 425px;
+		height: 240px
+	}
+
+	#math-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_math1285.jpg");
+		height: 260px
+	}
+
+	#math-title {
+		top: 78px;
+		right: 80px
+	}
+
+	#multiplication-title {
+		top: 78px;
+		right: 120px
+	}
+
+	#navidad-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Juegos_infantiles/juegos_de_navidad/Background_%20juegos_%20Navidad%20_1285_F.jpg");
+		height: 260px
+	}
+
+	#navidad-title {
+		top: 78px;
+		right: 120px
+	}
+
+	#riddle-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_adivinanzas1285.jpg");
+		height: 260px
+	}
+
+	#riddle-title {
+		top: 78px;
+		right: 140px
+	}
+
+	#science-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ciencias1285.jpg");
+		height: 260px
+	}
+
+	#science-title {
+		top: 78px;
+		right: 90px
+	}
+
+	#trabalenguas-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_trabalenguas1285V1.jpg");
+		height: 260px
+	}
+
+	#trabalenguas-title {
+		top: 75px;
+		right: 140px
+	}
+
+	#video-title {
+		top: 80px;
+		right: 92px
+	}
+
+}
+
+@media only screen and (max-width:1249px) {
+	.landing-rt-col {
+		right: 35px
+	}
+
+	.joke-landing-rt-col {
+		right: 40px
+	}
+
+}
+
+@media only screen and (max-width:1240px) {
+	.other-level-icons {
+		left: 112px
+	}
+
+}
+
+@media only screen and (max-width:1239px) {
+	#lectores-slider-div {
+		left: 35px
+	}
+
+}
+
+@media only screen and (max-width:1200px) {
+	.load-btn-div {
+		margin-top: 10px
+	}
+
+	#blog-recent-row {
+		margin-top: 40px
+	}
+
+	.share-col {
+		margin-top: 20px
+	}
+
+	#lectores-slider-div {
+		left: 17px;
+		top: -170px
+	}
+
+	.lectores-slider-img {
+		width: 322px;
+		height: 181.5px
+	}
+
+	#header-character {
+		width: 258.7px;
+		height: 210px;
+		top: 50px;
+		right: 20px
+	}
+
+	#level-header-img {
+		width: 258.7px;
+		height: 210px;
+		top: 50px;
+		left: 230px
+	}
+
+	#puma-header-img {
+		width: 258.7px;
+		height: 210px;
+		top: 50px;
+		left: 240px
+	}
+
+	#level-header-text-container {
+		width: 216.55px;
+		height: 161px;
+		top: 30px;
+		left: 90px
+	}
+
+	#exploradores-header-title {
+		top: 33px;
+		left: 90px;
+		width: 210px;
+		font-size: 22px
+	}
+
+	#curiosos-header-title {
+		font-size: 20px;
+		width: 200px;
+		top: 43px;
+		left: 92px
+	}
+
+	#ingeniosos-header-title {
+		font-size: 20px;
+		width: 200px;
+		top: 38px;
+		left: 103px
+	}
+
+	.level-header-icons {
+		position: relative;
+		top: 50px;
+		left: 15px;
+		width: 100px;
+		height: 80px
+	}
+
+	.other-level-icons {
+		display: absolute;
+		top: 60px;
+		left: 120px
+	}
+
+	.other-level-img {
+		width: 168.8px;
+		height: 65px
+	}
+
+	#puma-pepe-tv {
+		width: 380px;
+		height: 215px;
+		top: 30px
+	}
+
+}
+
+@media only screen and (max-width:1199px) {
+	.quiz-btn-col {
+		text-align: center
+	}
+
+	.landing-page {
+		overflow: hidden
+	}
+
+	.science-article-pages {
+		overflow: hidden
+	}
+
+	#story-div {
+		overflow: hidden
+	}
+
+	.prelectores-bold {
+		width: 620px
+	}
+
+	.lectores-bold {
+		width: 620px
+	}
+
+	#rt-col-display-row {
+		text-align: center
+	}
+
+	.rt-col-left-div {
+		text-align: right
+	}
+
+	.rt-col-right-div {
+		text-align: left
+	}
+
+	#story-content {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#song-content {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#sliderBook-content {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#game-content {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.primary-age-range {
+		width: 37px;
+		height: 37px;
+		bottom: 85px
+	}
+
+	.science-thumbnail-name {
+		font-size: 16px
+	}
+
+	.thumbnail-name {
+		font-size: 16px
+	}
+
+	.thumbnail-name-dark {
+		font-size: 16px
+	}
+
+	.science-thumbnail-title {
+		font-size: 12px
+	}
+
+	.thumbnail-txt {
+		font-size: 12px
+	}
+
+	.thumbnail-txt-dark {
+		font-size: 12px
+	}
+
+	.thumbnail-card-body {
+		height: 90px
+	}
+
+	.new-thumbnail-card {
+		height: 205px
+	}
+
+	#story-crumbs {
+		margin-left: 40px
+	}
+
+	#story-container {
+		border: none
+	}
+
+	#sliderBook-wrapper iframe {
+		width: 93%;
+		height: 93%
+	}
+
+	.nav-item {
+		position: static
+	}
+
+	.nav-item2 {
+		width: 100%;
+		text-align: left;
+		margin-left: 10px;
+		margin-top: 0px;
+		margin-bottom: 7px
+	}
+
+	#nav-top {
+		background: #5bd3d0;
+		padding-bottom: 0px
+	}
+
+	.nav-item:hover {
+		border-bottom: none
+	}
+
+	.navbar-toggler {
+		border: none
+	}
+
+	.navbar-toggler:focus {
+		outline: none
+	}
+
+	.navbar-toggler-icon {
+		color: #fff
+	}
+
+	.modal-content {
+		left: 12.5%;
+		width: 75%
+	}
+
+	.email-modal {
+		left: 25%;
+		right: 25%
+	}
+
+	.edge-modal {
+		left: 25%;
+		right: 25%
+	}
+
+	#puma-blck-img {
+		top: 50px;
+		width: 370px;
+		height: 377.4px
+	}
+
+	#bubble-blck-img {
+		bottom: 0px;
+		width: 530px;
+		height: 316.62px
+	}
+
+	.blck-text-div {
+		width: 420px;
+		position: relative;
+		bottom: 350px;
+		left: 450px;
+		line-height: 1.25
+	}
+
+	.blck-text-title {
+		font-size: 36px;
+		line-height: 1.0
+	}
+
+	.blck-text {
+		margin-bottom: 12px
+	}
+
+	.blck-subtitle {
+		font-size: 18px;
+		line-height: 1.0;
+		margin-bottom: 12px
+	}
+
+	.blck-help-div {
+		display: none
+	}
+
+	#blck-btn {
+		position: relative;
+		left: 180px;
+		bottom: 30px
+	}
+
+	.leaderboard-col {
+		padding: 0
+	}
+
+	.story-rt-col {
+		position: static;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0
+	}
+
+	.landing-rt-col {
+		position: static;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0
+	}
+
+	.joke-landing-rt-col {
+		position: static;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0
+	}
+
+	.coloring-rt-col {
+		position: static;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0
+	}
+
+	.character-icon-img {
+		width: 145px;
+		height: 122.4px
+	}
+
+	.slickArrowPrev {
+		left: 90px
+	}
+
+	.slickArrowNext {
+		right: 98px
+	}
+
+	.lectoresArrowNext {
+		right: -53px
+	}
+
+	.carousel-card {
+		height: 180px
+	}
+
+	.carousel-thumbnail-name {
+		font-size: 16px
+	}
+
+	.white-carousel-name {
+		font-size: 16px
+	}
+
+	#footer-subtitle-col {
+		margin-bottom: 0px
+	}
+
+	#horizontal-list2 li {
+		display: block
+	}
+
+	#horizontal-list2 {
+		text-align: left
+	}
+
+	#horizontal-list {
+		text-align: left
+	}
+
+	#horizontal-list li {
+		display: block
+	}
+
+	#old-game-wrapper iframe {
+		width: 93%;
+		height: 93%
+	}
+
+	#new-game-wrapper iframe {
+		width: 93%;
+		height: 93%
+	}
+
+	#pad60-game-wrapper iframe {
+		width: 93%;
+		height: 93%
+	}
+
+	#square-game-wrapper iframe {
+		width: 93%;
+		height: 93%
+	}
+
+	#game-crumbs {
+		position: relative;
+		left: 30px
+	}
+
+	#canciones-title {
+		right: 92px
+	}
+
+	.home-level-btn {
+		position: relative;
+		top: 35px;
+		width: 170px;
+		height: 190px
+	}
+
+	#video-title {
+		right: 92px
+	}
+
+}
+
+@media only screen and (max-width:1160px) {
+	.other-level-icons {
+		left: 108px
+	}
+
+}
+
+@media only screen and (max-width:1149px) {
+	#lectores-slider-div {
+		left: 27px
+	}
+
+}
+
+@media only screen and (max-width:1099px) {
+	.other-level-icons {
+		left: 95px
+	}
+
+	#puma-pepe-tv {
+		width: 350px;
+		height: 198px;
+		top: 43px;
+		left: 50px
+	}
+
+	#lectores-slider-div {
+		left: 47px;
+		top: -140px
+	}
+
+	.lectores-slider-img {
+		width: 296.5px;
+		height: 167px;
+		border: 2px solid #959595
+	}
+
+}
+
+@media only screen and (max-width:1049px) {
+	.other-level-icons {
+		left: 82px
+	}
+
+	.level-header-icons {
+		left: 25px
+	}
+
+	#level-header-text-container {
+		left: 70px
+	}
+
+	#exploradores-header-title {
+		left: 70px
+	}
+
+	#curiosos-header-title {
+		left: 72px
+	}
+
+	#ingeniosos-header-title {
+		font-size: 19px;
+		width: 200px;
+		left: 85px;
+		top: 46px
+	}
+
+	#level-header-img {
+		left: 210px
+	}
+
+	#puma-header-img {
+		left: 220px
+	}
+
+}
+
+@media only screen and (max-width:1039px) {
+	#lectores-slider-div {
+		left: 60px
+	}
+
+	#animal-title {
+		right: 120px
+	}
+
+	#canciones-title {
+		right: 120px
+	}
+
+	#cuentos-title {
+		right: 145px
+	}
+
+	#dibujos-title {
+		right: 167px
+	}
+
+	#english-text-container {
+		right: 90px
+	}
+
+	#english-title {
+		right: 165px
+	}
+
+	#frases-title {
+		right: 170px
+	}
+
+	#infantiles-title {
+		right: 165px
+	}
+
+	#joke-title {
+		right: 167px
+	}
+
+	#language-title {
+		right: 145px
+	}
+
+	#math-title {
+		right: 115px
+	}
+
+	#multiplication-title {
+		right: 145px
+	}
+
+	#navidad-title {
+		right: 145px
+	}
+
+	#riddle-title {
+		right: 165px
+	}
+
+	#science-title {
+		right: 120px
+	}
+
+	#trabalenguas-title {
+		right: 170px
+	}
+
+	#video-title {
+		right: 120px
+	}
+
+}
+
+@media only screen and (max-width:991px) {
+	.quiz-modal {
+		height: 350px
+	}
+
+	.quiz-modal-gif {
+		height: 175px
+	}
+
+	.quiz-modal-text {
+		font-size: 36px
+	}
+
+	.btn-ciencia {
+		font-size: 18px
+	}
+
+	.btn-ciencia-active {
+		font-size: 18px
+	}
+
+	.share-txt {
+		font-size: 20px
+	}
+
+	.blog-author-img-col {
+		text-align: center
+	}
+
+	.feature-card-title {
+		font-size: 24px
+	}
+
+	.blog-subtitle {
+		font-size: 24px
+	}
+
+	#blog-author-title {
+		font-size: 24px;
+		text-align: center
+	}
+
+	.prelectores-bold {
+		width: 500px;
+		font-size: 17px
+	}
+
+	.lectores-bold {
+		width: 500px;
+		font-size: 17px
+	}
+
+	.question {
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#title {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center
+	}
+
+	.terms-question-div {
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#character-img {
+		position: relative;
+		right: 35px;
+		width: 380px;
+		height: 433px
+	}
+
+	#social-title {
+		font-size: 36px;
+		margin-bottom: 0px
+	}
+
+	#social-title-img {
+		margin-bottom: 10px
+	}
+
+	.social-subtitle {
+		font-size: 28px
+	}
+
+	.impact-subtitle {
+		font-size: 28px
+	}
+
+	#not-found-img {
+		position: relative;
+		top: 20px
+	}
+
+	#not-found-jumbotron {
+		padding-top: 1rem;
+		padding-bottom: 1rem
+	}
+
+	.meto-img-txt {
+		margin-left: 0px;
+		margin-right: 0px
+	}
+
+	#methodology-title {
+		font-size: 32px
+	}
+
+	.methodology-text {
+		font-size: 18px
+	}
+
+	#meto-h2 {
+		font-size: 28px
+	}
+
+	#link-page-subtitle {
+		font-size: 22px
+	}
+
+	.link-name {
+		font-size: 18px
+	}
+
+	#link-page-title {
+		font-size: 36px;
+		margin-bottom: 0px
+	}
+
+	.link-img-col {
+		text-align: left
+	}
+
+	#historia-title {
+		font-size: 36px;
+		margin-bottom: 0px
+	}
+
+	#coloringPage-crumbs {
+		margin-left: 30px
+	}
+
+	#dibujo-title-div {
+		text-align: center
+	}
+
+	.coloring-stat-div {
+		margin-left: 130px;
+		margin-right: 130px
+	}
+
+	.coloring-side-div {
+		margin-top: 0px
+	}
+
+	#puzzle-crumbs {
+		margin-left: 42px
+	}
+
+	.print-icon {
+		height: 28px;
+		width: 28px
+	}
+
+	#dibujo-title-span {
+		font-size: 28px
+	}
+
+	#dibujo-title {
+		font-size: 28px
+	}
+
+	.curriculum-title-div {
+		margin-left: 30px
+	}
+
+	.curriculum-text-div {
+		margin-left: 30px
+	}
+
+	.curriculum-btn {
+		margin-top: 0px
+	}
+
+	.panel-title-container {
+		position: static;
+		border-bottom: solid 1px #ddd;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-bottom: 10px
+	}
+
+	.panel-icon-div {
+		text-align: center;
+		display: none
+	}
+
+	#lenguaje-thumb-div {
+		display: none
+	}
+
+	#lenguaje-thumb-show {
+		display: block
+	}
+
+	#matematicas-thumb-div {
+		display: none
+	}
+
+	#matematicas-thumb-show {
+		display: block
+	}
+
+	#ingles-thumb-div {
+		display: none
+	}
+
+	#ingles-thumb-show {
+		display: block
+	}
+
+	#juegos-infantiles-thumb-div {
+		display: none
+	}
+
+	#juegos-infantiles-thumb-show {
+		display: block
+	}
+
+	#lectura-thumb-div {
+		display: none
+	}
+
+	#lectura-thumb-show {
+		display: block
+	}
+
+	#canciones-thumb-div {
+		display: none
+	}
+
+	#canciones-thumb-show {
+		display: block
+	}
+
+	.panel-icon-show {
+		display: inline-block;
+		margin-top: 5px;
+		text-align: center
+	}
+
+	.filter-btn {
+		margin-right: 25px;
+		margin-left: 25px;
+		margin-top: 5px;
+		margin-bottom: 5px
+	}
+
+	.filter-txt {
+		font-size: 16px
+	}
+
+	.filter-arrow-div {
+		display: inline-block
+	}
+
+	.responsive-down-hide {
+		display: none
+	}
+
+	.responsive-down-show {
+		display: inherit;
+		position: relative;
+		right: 25px
+	}
+
+	.responsive-up-hide {
+		display: none
+	}
+
+	.responsive-up-show {
+		display: inline-block;
+		position: relative;
+		right: 25px
+	}
+
+	.up-hide {
+		display: none
+	}
+
+	.up-show {
+		display: block
+	}
+
+	.level-thumb-img {
+		display: inline-block;
+		margin-right: 50px
+	}
+
+	.filter-arrow {
+		width: 36px;
+		height: 36px
+	}
+
+	#primary-txt-title {
+		font-size: 28px
+	}
+
+	#txt-title {
+		font-size: 28px
+	}
+
+	.joke-txt-title {
+		font-size: 28px
+	}
+
+	#game-text-title {
+		font-size: 1.8rem
+	}
+
+	#objective-title {
+		font-size: 1.8rem
+	}
+
+	#moral-div {
+		font-size: 1.2rem
+	}
+
+	#story-container {
+		margin-top: 0px
+	}
+
+	#story-title {
+		font-size: 36px
+	}
+
+	#blog-article-title {
+		font-size: 36px
+	}
+
+	#sliderBook-title {
+		margin-top: 0px;
+		font-size: 36px
+	}
+
+	.stars {
+		width: 100px
+	}
+
+	.avatar-img {
+		width: 60px
+	}
+
+	#science-slider-title {
+		font-size: 1.8rem
+	}
+
+	#slick-slider-title {
+		font-size: 1.8rem
+	}
+
+	#animal-slider-title {
+		font-size: 1.8rem
+	}
+
+	.lectores-subarea-title-row {
+		display: block
+	}
+
+	#lectores-subarea-slider-div {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 10px
+	}
+
+	#logo {
+		width: 210px;
+		height: 60px
+	}
+
+	.modal-content {
+		left: 10%;
+		width: 80%;
+		top: 20px
+	}
+
+	.email-modal {
+		left: 22.5%;
+		right: 22.5%;
+		height: 180px
+	}
+
+	.edge-modal {
+		left: 20%;
+		right: 20%;
+		height: 285px
+	}
+
+	#edge-btn {
+		position: relative;
+		bottom: 5px
+	}
+
+	#puma-blck-img {
+		top: 80px;
+		left: -35px;
+		height: 300px;
+		width: 282.4px
+	}
+
+	#bubble-blck-img {
+		top: 30px;
+		right: 135px
+	}
+
+	.blck-text-div {
+		width: 420px;
+		position: relative;
+		bottom: 260px;
+		left: 265px;
+		line-height: 1.25
+	}
+
+	#article-title {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 32px
+	}
+
+	#animal-crumbs {
+		margin-left: 10px
+	}
+
+	.article-subtitle {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 24px
+	}
+
+	.definition-word {
+		font-size: 22px
+	}
+
+	.definition-txt {
+		font-size: 18px
+	}
+
+	.quiz-submit {
+		font-size: 18px
+	}
+
+	.quiz-answer {
+		font-size: 18px
+	}
+
+	.quiz-label {
+		font-size: 16px
+	}
+
+	.checkmark {
+		width: 20px;
+		height: 20px
+	}
+
+	.statistic-subtitle {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 24px
+	}
+
+	.article-text {
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.facts-div {
+		margin-left: 0px
+	}
+
+	#fact-col {
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.fact-checkmarks {
+		font-size: .85em
+	}
+
+	.stat-title {
+		text-align: left
+	}
+
+	.stat-text {
+		text-align: left
+	}
+
+	.paragraph-row {
+		margin-bottom: 15px;
+		margin-top: 15px
+	}
+
+	.text-paragraph-row {
+		margin-bottom: 15px;
+		margin-top: 15px
+	}
+
+	#horizontal-title-col {
+		text-align: left
+	}
+
+	#horizontal-row {
+		margin-bottom: 0px
+	}
+
+	#text2-row {
+		display: flex;
+		flex-direction: column
+	}
+
+	#flip-div-img {
+		order: 2
+	}
+
+	#flip-div {
+		order: 1
+	}
+
+	#best-games-title {
+		padding-top: 25px
+	}
+
+	.right-historia-img {
+		transform: rotate(0deg)
+	}
+
+	.left-historia-img {
+		transform: rotate(0deg)
+	}
+
+	.historia-subtitle {
+		font-size: 22px
+	}
+
+	.paragraph-title {
+		font-size: 22px
+	}
+
+	.paragraph-subtitle {
+		font-size: 18px
+	}
+
+	.horizontal-paragraph-text {
+		margin-bottom: 10px
+	}
+
+	.home-bottom-img {
+		margin-top: 5px;
+		margin-bottom: 10px
+	}
+
+	.fluid-bottom-img {
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+
+	#character-button-title {
+		font-size: 1.8rem
+	}
+
+	.icon-text {
+		display: none
+	}
+
+	.slickArrowPrev {
+		left: 20px
+	}
+
+	.slickArrowNext {
+		right: 28px
+	}
+
+	.experimentArrowPrev {
+		left: -5px
+	}
+
+	.experimentArrowNext {
+		right: 3px
+	}
+
+	#icon-bar {
+		margin-bottom: 20px
+	}
+
+	#animal-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_animales991.jpg")
+	}
+
+	#animal-title {
+		right: 10px
+	}
+
+	#canciones-title {
+		font-size: 28px;
+		right: 12px;
+		top: 75px
+	}
+
+	#cuentos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_cuentos992.jpg")
+	}
+
+	#cuentos-title {
+		right: 40px
+	}
+
+	#dibujos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_colorear991.jpg")
+	}
+
+	#dibujos-title {
+		right: 60px
+	}
+
+	#english-title {
+		right: 60px
+	}
+
+	#english-text-container {
+		right: -20px
+	}
+
+	#english-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ingles991px.jpg")
+	}
+
+	#frases-title {
+		right: 55px
+	}
+
+	.home-carousel {
+		display: block;
+		margin: auto;
+		position: relative;
+		top: 30px
+	}
+
+	.home-lg {
+		display: none
+	}
+
+	.home-carousel-img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto
+	}
+
+	#home-header-sticker {
+		width: 150px;
+		height: 125px;
+		position: relative;
+		top: 30px;
+		right: 50px;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.home-carousel-icon {
+		height: 60px;
+		width: 60px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.home-carousel-control-next {
+		height: 65px;
+		width: 65px;
+		position: absolute;
+		right: 0px;
+		top: 90px
+	}
+
+	.home-carousel-control-prev {
+		height: 65px;
+		width: 65px;
+		position: absolute;
+		left: 0px;
+		top: 90px
+	}
+
+	#infantiles-header-img {
+		background-image: url("https://res.cloudinary.com/arbol-abc/image/upload/v1521475331/Juegos%20Infantiles/Landing%20Page/bg_infantil992.jpg")
+	}
+
+	#infantiles-title {
+		right: 60px
+	}
+
+	#joke-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_chistes991.jpg")
+	}
+
+	#joke-title {
+		right: 60px
+	}
+
+	#header-character {
+		right: 70px
+	}
+
+	#language-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage992.jpg")
+	}
+
+	#language-title {
+		right: 40px
+	}
+
+	#explordores-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivela_992.jpg")
+	}
+
+	#curiosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage992.jpg")
+	}
+
+	#ingeniosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivelb_992.jpg")
+	}
+
+	#level-header-img {
+		width: 258.7px;
+		height: 210px;
+		top: 50px;
+		left: 380px
+	}
+
+	#puma-header-img {
+		width: 258.7px;
+		height: 210px;
+		top: 50px;
+		left: 380px
+	}
+
+	#level-header-text-container {
+		width: 216.55px;
+		height: 161px;
+		top: 30px;
+		left: 240px
+	}
+
+	#exploradores-header-title {
+		top: 33px;
+		left: 240px
+	}
+
+	#curiosos-header-title {
+		left: 242px
+	}
+
+	#ingeniosos-header-title {
+		top: 48px;
+		font-size: 18px;
+		width: 190px;
+		left: 255px
+	}
+
+	.other-level-img {
+		width: 199px;
+		height: 78px
+	}
+
+	.other-level-icons {
+		left: 36px
+	}
+
+	#math-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_math992px.jpg")
+	}
+
+	#math-title {
+		right: 0px
+	}
+
+	#multiplication-title {
+		right: 40px
+	}
+
+	#navidad-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Juegos_infantiles/juegos_de_navidad/Background_%20juegos_%20Navidad%20_991_F.jpg")
+	}
+
+	#navidad-title {
+		right: 35px
+	}
+
+	#landing-title {
+		font-size: 28px
+	}
+
+	#landing-subtitle {
+		font-size: 20px
+	}
+
+	#riddle-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_adivinanzas991.jpg")
+	}
+
+	#riddle-title {
+		right: 55px
+	}
+
+	#science-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ciencias991.jpg")
+	}
+
+	#science-title {
+		right: 10px
+	}
+
+	#trabalenguas-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_trabalenguas991V1.jpg")
+	}
+
+	#trabalenguas-title {
+		right: 55px
+	}
+
+	#video-title {
+		font-size: 26px;
+		right: 12px;
+		top: 80px
+	}
+
+	.phrase-card {
+		width: 500px
+	}
+
+}
+
+@media only screen and (max-width:990px) {
+	#leaderboard-container {
+		padding-left: 0;
+		padding-right: 0
+	}
+
+	#game-page-title {
+		margin-top: 0px;
+		font-size: 36px
+	}
+
+	#game-crumbs {
+		position: relative;
+		left: 0px
+	}
+
+	#portrait-game-wrapper iframe {
+		min-width: 80%
+	}
+
+	#portrait-game-wrapper {
+		position: relative;
+		padding-bottom: 94%;
+		height: 0;
+		overflow: hidden;
+		border-radius: 8px
+	}
+
+}
+
+@media only screen and (max-width:915px) {
+	.other-level-icons {
+		left: 20px
+	}
+
+}
+
+@media only screen and (max-width:889px) {
+	.other-level-icons {
+		left: 40px
+	}
+
+	.other-level-img {
+		width: 168.8px;
+		height: 65px
+	}
+
+	#level-header-text-container {
+		left: 210px
+	}
+
+	#exploradores-header-title {
+		left: 210px
+	}
+
+	#curiosos-header-title {
+		left: 207px
+	}
+
+	#ingeniosos-header-title {
+		left: 223px
+	}
+
+	#level-header-img {
+		left: 350px
+	}
+
+	#puma-header-img {
+		left: 350px
+	}
+
+}
+
+@media only screen and (max-width:869px) {
+	#home-header-sticker {
+		width: 135px;
+		height: 112.5px;
+		position: relative;
+		top: 30px;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+}
+
+@media only screen and (max-width:859px) {
+	#character-img {
+		right: 20px;
+		width: 330px;
+		height: 376px
+	}
+
+}
+
+@media only screen and (max-width:849px) {
+	.curriculum-title-div {
+		margin-left: 15px
+	}
+
+	.curriculum-text-div {
+		margin-left: 15px
+	}
+
+	.other-level-icons {
+		left: 30px
+	}
+
+	#level-header-text-container {
+		left: 160px
+	}
+
+	#exploradores-header-title {
+		left: 160px
+	}
+
+	#curiosos-header-title {
+		left: 157px
+	}
+
+	#ingeniosos-header-title {
+		left: 175px
+	}
+
+	#level-header-img {
+		left: 300px
+	}
+
+	#puma-header-img {
+		left: 305px
+	}
+
+}
+
+@media only screen and (max-width:819px) {
+	#animal-title {
+		top: 76px;
+		right: -30px;
+		line-height: 37px
+	}
+
+	#canciones-title {
+		font-size: 26px;
+		width: 270px;
+		top: 78px;
+		right: -12px;
+		line-height: 38px
+	}
+
+	#cuentos-title {
+		right: 0px;
+		line-height: 40px
+	}
+
+	#dibujos-title {
+		top: 76px;
+		right: 20px;
+		line-height: 37px
+	}
+
+	#english-title {
+		right: 20px;
+		line-height: 40px
+	}
+
+	#english-text-container {
+		height: 84px;
+		width: 300px;
+		right: -30px
+	}
+
+	#frases-title {
+		right: 20px;
+		line-height: 40px
+	}
+
+	#infantiles-title {
+		right: 20px;
+		top: 74px;
+		line-height: 40px
+	}
+
+	#joke-title {
+		top: 76px;
+		right: 20px;
+		line-height: 37px
+	}
+
+	#header-character {
+		right: 40px
+	}
+
+	#language-title {
+		right: 0px;
+		line-height: 40px
+	}
+
+	#math-title {
+		right: -40px;
+		line-height: 40px
+	}
+
+	#multiplication-title {
+		right: 0px;
+		line-height: 40px;
+		top: 75px
+	}
+
+	#navidad-title {
+		top: 78px;
+		right: 0px;
+		line-height: 37px
+	}
+
+	#riddle-title {
+		top: 75px;
+		right: 20px;
+		line-height: 37px
+	}
+
+	#science-title {
+		top: 76px;
+		right: -30px;
+		line-height: 37px
+	}
+
+	#trabalenguas-title {
+		top: 75px;
+		right: 20px;
+		line-height: 37px
+	}
+
+	#video-title {
+		font-size: 24px;
+		width: 270px;
+		top: 78px;
+		right: -12px;
+		line-height: 38px
+	}
+
+}
+
+@media only screen and (max-width:809px) {
+	.other-level-icons {
+		left: 20px
+	}
+
+	#level-header-text-container {
+		left: 160px
+	}
+
+	#exploradores-header-title {
+		left: 160px
+	}
+
+	#curiosos-header-title {
+		left: 157px
+	}
+
+	#ingeniosos-header-title {
+		left: 175px
+	}
+
+	#level-header-img {
+		left: 300px
+	}
+
+	#puma-header-img {
+		left: 300px
+	}
+
+}
+
+@media only screen and (max-width:779px) {
+	.other-level-icons {
+		left: 15px
+	}
+
+}
+
+@media only screen and (max-width:769px) {
+	#logo {
+		width: 180px;
+		height: 51px
+	}
+
+	#horizontal-list {
+		font-size: 16px;
+		margin-left: 0px
+	}
+
+	.footer-subtitle {
+		font-size: 16px
+	}
+
+	#horizontal-list2 {
+		font-size: 16px;
+		margin-left: 0px
+	}
+
+	.footer-link {
+		margin-left: 0px
+	}
+
+	.conditions-link {
+		margin-left: 0px
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	#page-title {
+		text-align: center
+	}
+
+	#text-box {
+		margin-bottom: 30px
+	}
+
+	#title {
+		margin-top: 15px
+	}
+
+}
+
+@media only screen and (max-width:767px) {
+	.quiz-modal {
+		left: 15%;
+		right: 15%;
+		height: 300px
+	}
+
+	.quiz-modal-gif {
+		height: 150px
+	}
+
+	.quiz-modal-text {
+		font-size: 28px
+	}
+
+	.science-btn-group {
+		margin-top: 20px
+	}
+
+	.btn-ciencia {
+		font-size: 16px
+	}
+
+	.btn-ciencia-active {
+		font-size: 16px
+	}
+
+	.share-txt {
+		font-size: 18px
+	}
+
+	.blogCard {
+		height: 200px
+	}
+
+	.span-txt {
+		font-size: 12px
+	}
+
+	.feature-card-title {
+		font-size: 22px
+	}
+
+	.feature-card-text {
+		display: none
+	}
+
+	.blog-subtitle {
+		font-size: 22px
+	}
+
+	#blog-author-title {
+		font-size: 22px
+	}
+
+	.story-info {
+		padding-bottom: 10px
+	}
+
+	.scroll-up {
+		height: 32px;
+		width: 32px
+	}
+
+	.prelectores-icon-row {
+		margin-top: 0px
+	}
+
+	.prelectores-bold {
+		font-size: 16px
+	}
+
+	.lectores-bold {
+		font-size: 16px
+	}
+
+	#bottom-mpu {
+		display: none
+	}
+
+	.rt-col-left-div {
+		text-align: center
+	}
+
+	.rt-col-right-div {
+		text-align: center
+	}
+
+	#social-title {
+		font-size: 32px
+	}
+
+	.social-subtitle {
+		font-size: 24px
+	}
+
+	.impact-subtitle {
+		font-size: 24px
+	}
+
+	.impact-icon-stat {
+		font-size: 32px
+	}
+
+	.meto-img-title {
+		font-size: 18px
+	}
+
+	.method-title-txt-row {
+		border-bottom: none;
+		margin-bottom: 10px
+	}
+
+	#link-page-subtitle {
+		font-size: 20px
+	}
+
+	#link-page-title {
+		font-size: 32px
+	}
+
+	#historia-title {
+		font-size: 32px
+	}
+
+	#puzzle-crumbs {
+		display: none
+	}
+
+	#coloringPage-crumbs {
+		display: none
+	}
+
+	#dibujo-title-div {
+		margin-bottom: 10px
+	}
+
+	#dibujo-title-span {
+		font-size: 24px;
+		margin-right: 5px
+	}
+
+	#dibujo-title {
+		font-size: 24px
+	}
+
+	.coloring-stat-div {
+		margin-left: 110px;
+		margin-right: 110px
+	}
+
+	.portrait-img {
+		width: 90%
+	}
+
+	.curriculum-text-div {
+		margin-left: 0px
+	}
+
+	.curriculum-card-header {
+		border-bottom: none
+	}
+
+	#curriculum-content-row {
+		margin-top: 10px
+	}
+
+	#curriculum-content-row {
+		margin-bottom: 20px
+	}
+
+	#curriculum-lg {
+		display: none
+	}
+
+	#curriculum-sm {
+		display: block
+	}
+
+	#curriculum-page-title {
+		font-size: 32px
+	}
+
+	.curriculum-btn {
+		margin-bottom: 0px
+	}
+
+	.curriculum-subtitle {
+		text-align: center;
+		padding-bottom: 15px;
+		border-bottom: solid 2px #ddd
+	}
+
+	.curriculum-text {
+		text-align: center;
+		padding-bottom: 15px;
+		border-bottom: solid 2px #ddd
+	}
+
+	.curriculum-icon-title {
+		border-bottom: none;
+		position: relative;
+		left: 150px
+	}
+
+	.curriculum-img-sm {
+		position: relative;
+		left: 150px
+	}
+
+	.panel-title-container {
+		position: static;
+		margin-top: 5px
+	}
+
+	#lenguaje-thumb-show {
+		padding-top: 0px
+	}
+
+	#matematicas-thumb-div {
+		padding-top: 0px
+	}
+
+	#matematicas-thumb-show {
+		padding-top: 0px
+	}
+
+	#ingles-thumb-div {
+		padding-top: 0px
+	}
+
+	#ingles-thumb-show {
+		padding-top: 0px
+	}
+
+	#juegos-infantiles-thumb-div {
+		padding-top: 0px
+	}
+
+	#juegos-infantiles-thumb-show {
+		padding-top: 0px
+	}
+
+	#lectura-thumb-div {
+		padding-top: 0px
+	}
+
+	#lectura-thumb-show {
+		padding-top: 0px
+	}
+
+	#canciones-thumb-div {
+		padding-top: 0px
+	}
+
+	#canciones-thumb-show {
+		padding-top: 0px
+	}
+
+	.filter-input {
+		width: 47px;
+		height: 39px
+	}
+
+	.filter-txt {
+		display: none
+	}
+
+	#science-thumbnail-title {
+		font-size: 24px
+	}
+
+	#thumbnail-title {
+		font-size: 24px
+	}
+
+	#secondary-thumbnail-title {
+		font-size: 24px
+	}
+
+	.thumbnail-container {
+		padding-top: 15px
+	}
+
+	.thumb-like-div {
+		display: none
+	}
+
+	.primary-age-range {
+		width: 34px;
+		height: 34px;
+		bottom: 60px
+	}
+
+	.science-thumbnail-title {
+		font-size: 11px
+	}
+
+	.thumbnail-txt {
+		font-size: 11px
+	}
+
+	.thumbnail-txt-dark {
+		font-size: 11px
+	}
+
+	.user-conditions-title {
+		font-size: 10px
+	}
+
+	.user-conditions-text {
+		font-size: 8px
+	}
+
+	#primary-txt-title {
+		font-size: 24px
+	}
+
+	#txt-title {
+		font-size: 24px
+	}
+
+	.joke-txt-title {
+		font-size: 24px
+	}
+
+	#lyric-div {
+		column-count: 2;
+		column-gap: 0px;
+		column-width: 200px
+	}
+
+	.blocktext {
+		margin-left: 50px
+	}
+
+	#game-text-title {
+		font-size: 1.6rem
+	}
+
+	#objective-title {
+		font-size: 1.6rem
+	}
+
+	#story-title {
+		font-size: 28px;
+		margin-top: 20px
+	}
+
+	#blog-article-title {
+		font-size: 28px;
+		margin-top: 20px
+	}
+
+	#story-crumbs {
+		display: none
+	}
+
+	#moral-div {
+		font-size: 1.15rem
+	}
+
+	.audio-text {
+		font-size: 13px
+	}
+
+	#sliderBook-title {
+		font-size: 32px
+	}
+
+	.avatar-img {
+		width: 55px
+	}
+
+	.testimonial-name {
+		font-size: 18px
+	}
+
+	.stars {
+		width: 90px
+	}
+
+	.testimonial-text {
+		margin-left: 5%;
+		margin-right: 5%
+	}
+
+	#animal-slider-title {
+		font-size: 1.6rem
+	}
+
+	#home-slider-div {
+		display: none
+	}
+
+	#science-slider-title {
+		font-size: 1.6rem
+	}
+
+	#slick-slider-title {
+		font-size: 1.6rem
+	}
+
+	#story-slider-load-div {
+		bottom: 100px
+	}
+
+	.adiv-title {
+		font-size: 15px
+	}
+
+	.question {
+		font-size: 20px;
+		margin-right: 0px;
+		margin-top: 5px
+	}
+
+	.tongue-twister {
+		font-size: 20px;
+		margin-top: 5px;
+		margin-left: 15px;
+		margin-right: 15px
+	}
+
+	.answer {
+		font-size: 20px;
+		margin-right: 0px
+	}
+
+	.answer-hide {
+		font-size: 20px;
+		margin-right: 0px
+	}
+
+	.riddle-btn {
+		height: 100.32px;
+		width: 97px
+	}
+
+	#chiste-h3 {
+		text-align: left
+	}
+
+	.modal-content {
+		left: 5%;
+		width: 90%
+	}
+
+	.email-modal {
+		left: 20%;
+		right: 20%
+	}
+
+	.edge-modal {
+		left: 15%;
+		right: 15%;
+		height: 300px
+	}
+
+	#edge-btn {
+		position: static
+	}
+
+	.icon-txt {
+		font-size: 17px
+	}
+
+	#puma-blck-img {
+		top: 80px;
+		left: -80px;
+		height: 270px;
+		width: 254px
+	}
+
+	#bubble-blck-img {
+		top: 30px;
+		right: 120px;
+		height: 310px;
+		width: 450px
+	}
+
+	.blck-text-div {
+		width: 375px;
+		position: relative;
+		bottom: 250px;
+		left: 193px;
+		line-height: 1.0
+	}
+
+	.blck-subtitle {
+		font-size: 16px
+	}
+
+	.blck-text-title {
+		font-size: 28px
+	}
+
+	#help-title {
+		font-size: 24px
+	}
+
+	#blck-btn {
+		position: relative;
+		top: -10px;
+		left: 70px
+	}
+
+	.story-rt-col {
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+
+	#anuncio-dark {
+		font-size: 8px
+	}
+
+	#anuncio-white {
+		font-size: 8px
+	}
+
+	.arbGameThumbnails {
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+
+	.ad-row {
+		margin-top: 15px;
+		margin-bottom: 25px
+	}
+
+	#animal-crumbs {
+		display: none
+	}
+
+	#article-title {
+		font-size: 28px
+	}
+
+	#article-title-row {
+		margin-top: 0px
+	}
+
+	.article-subtitle {
+		font-size: 22px
+	}
+
+	.definition-word {
+		font-size: 20px
+	}
+
+	.definition-txt {
+		font-size: 16px
+	}
+
+	.quiz-submit {
+		font-size: 16px
+	}
+
+	.quiz-answer {
+		font-size: 16px
+	}
+
+	.quiz-label {
+		font-size: 14px
+	}
+
+	.checkmark {
+		width: 15px;
+		height: 15px
+	}
+
+	.statistic-subtitle {
+		font-size: 22px
+	}
+
+	.fact-subtitle {
+		font-size: 20px
+	}
+
+	#light-bulb {
+		height: 45px;
+		width: 28.6px
+	}
+
+	.fact-checkmarks {
+		font-size: .75em
+	}
+
+	.stat-title {
+		font-size: 14px
+	}
+
+	.paragraph-title {
+		font-size: 20px
+	}
+
+	.paragraph-subtitle {
+		font-size: 17px
+	}
+
+	h4 {
+		font-size: 17px
+	}
+
+	.historia-subtitle {
+		font-size: 20px
+	}
+
+	#character-button-title {
+		font-size: 1.6rem
+	}
+
+	.character-icon-img {
+		width: 145px;
+		height: 122.4px
+	}
+
+	.slickArrowPrev {
+		left: 10px
+	}
+
+	.scienceArrowPrev {
+		left: -53px
+	}
+
+	.slickArrowNext {
+		right: 18px
+	}
+
+	.experimentArrowPrev {
+		left: -10px
+	}
+
+	.experimentArrowNext {
+		right: -2px
+	}
+
+	.storyArrowNext {
+		right: 0px
+	}
+
+	.scienceNext {
+		right: 0px
+	}
+
+	.sciencePrev {
+		left: -8px
+	}
+
+	.storyArrowPrev {
+		left: 0px
+	}
+
+	.fa-3x {
+		font-size: 2.5em
+	}
+
+	#game-thumbnail-title {
+		font-size: 32px
+	}
+
+	#experiment-title {
+		font-size: 32px;
+		margin-bottom: 0px
+	}
+
+	#experiment-title-row {
+		margin-top: 0px
+	}
+
+	.experiment-text {
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#note-row {
+		margin-right: auto;
+		margin-left: auto
+	}
+
+	#experiment-title-col {
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#note-title {
+		margin-left: 20px
+	}
+
+	#note-text {
+		margin-right: 20px;
+		margin-left: 20px
+	}
+
+	.procedure-text {
+		margin-right: 20px;
+		margin-left: 20px
+	}
+
+	.experiment-div-title {
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.procedure-text-div {
+		margin-bottom: 15px
+	}
+
+	#game-page-title {
+		font-size: 32px
+	}
+
+	#game-crumbs {
+		display: none
+	}
+
+	#portrait-game-wrapper iframe {
+		min-width: 93%;
+		height: 100%
+	}
+
+	#portrait-game-wrapper {
+		padding-bottom: 120%
+	}
+
+	#animal-title {
+		right: -40px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 275px
+	}
+
+	#canciones-title {
+		position: absolute;
+		font-size: 24px;
+		width: 250px;
+		top: 85px;
+		right: -22px
+	}
+
+	#cuentos-title {
+		right: -20px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px
+	}
+
+	#dibujos-title {
+		right: 5px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 200px
+	}
+
+	#english-title {
+		right: 0px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px
+	}
+
+	#english-text-container {
+		width: 282px;
+		height: 79px;
+		right: -40px;
+		top: 100px
+	}
+
+	#frases-title {
+		right: 0px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 200px
+	}
+
+	.home-carousel {
+		top: 10px
+	}
+
+	#home-header-sticker {
+		width: 135px;
+		height: 112.5px;
+		position: relative;
+		top: 30px;
+		right: 60px;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#prev-btn {
+		position: relative;
+		right: 40px
+	}
+
+	#next-btn {
+		position: relative;
+		left: 40px
+	}
+
+	.home-carousel-img {
+		width: 198px;
+		height: 220;
+		position: relative;
+		top: 0px
+	}
+
+	#infantiles-title {
+		right: 0px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px
+	}
+
+	#joke-title {
+		right: 5px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 200px
+	}
+
+	#header-character {
+		position: absolute;
+		top: 50px;
+		right: 30px
+	}
+
+	#language-title {
+		right: 0px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 200px
+	}
+
+	#math-title {
+		right: -40px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 280px
+	}
+
+	#multiplication-title {
+		right: -10px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 220px
+	}
+
+	#navidad-title {
+		right: -40px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 275px
+	}
+
+	#title-elems-row {
+		padding-bottom: 10px;
+		margin-bottom: 0px
+	}
+
+	#landing-title {
+		font-size: 24px
+	}
+
+	#landing-subtitle {
+		font-size: 18px
+	}
+
+	#riddle-title {
+		right: 0px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 200px
+	}
+
+	#science-title {
+		right: -50px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 300px
+	}
+
+	#trabalenguas-title {
+		right: 0px;
+		top: 85px;
+		font-size: 30px;
+		line-height: 37px;
+		width: 200px
+	}
+
+	#video-title {
+		position: absolute;
+		font-size: 22px;
+		width: 250px;
+		top: 85px;
+		right: -22px
+	}
+
+	.phrase-card {
+		width: 430px
+	}
+
+	.phrase-title {
+		color: #666;
+		font-size: .9rem
+	}
+
+	.phrase-blockquote {
+		font-size: 1.15rem
+	}
+
+}
+
+@media only screen and (max-width:749px) {
+	#level-header-text-container {
+		left: 110px
+	}
+
+	#exploradores-header-title {
+		left: 110px
+	}
+
+	#curiosos-header-title {
+		left: 106px
+	}
+
+	#ingeniosos-header-title {
+		left: 123px
+	}
+
+	#level-header-img {
+		left: 250px
+	}
+
+	#puma-header-img {
+		left: 250px
+	}
+
+	.other-level-icons {
+		left: 7px
+	}
+
+}
+
+@media only screen and (max-width:719px) {
+	.other-level-icons {
+		left: -3px
+	}
+
+}
+
+@media only screen and (max-width:676px) {
+	#header-character {
+		width: 240.22px;
+		height: 195px;
+		top: 65px
+	}
+
+	.other-level-icons {
+		left: -12px
+	}
+
+	#level-header-img {
+		width: 240.22px;
+		height: 195px;
+		left: 220px;
+		top: 65px
+	}
+
+	#puma-header-img {
+		width: 240.22px;
+		height: 195px;
+		left: 220px;
+		top: 65px
+	}
+
+	#level-header-text-container {
+		width: 201.4px;
+		height: 149.7px;
+		left: 80px;
+		top: 48px
+	}
+
+	#exploradores-header-title {
+		font-size: 20px;
+		width: 190px;
+		left: 83px;
+		top: 48px
+	}
+
+	#curiosos-header-title {
+		width: 200px;
+		left: 78px;
+		top: 53px
+	}
+
+	#ingeniosos-header-title {
+		left: 91px;
+		top: 60px
+	}
+
+}
+
+@media only screen and (max-width:670px) {
+	#home-header-sticker {
+		width: 115px;
+		height: 96px;
+		position: relative;
+		top: 20px;
+		right: 10px;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+}
+
+@media only screen and (max-width:659px) {
+	#puma-blck-img {
+		top: 80px;
+		left: -40px;
+		height: 235px;
+		width: 221px
+	}
+
+	#bubble-blck-img {
+		top: 30px;
+		right: 100px;
+		height: 300px;
+		width: 400px
+	}
+
+	.blck-text-div {
+		width: 320px;
+		position: relative;
+		bottom: 250px;
+		left: 210px;
+		line-height: 1.0
+	}
+
+	.blck-subtitle {
+		margin-bottom: 8px
+	}
+
+	.blck-text-title {
+		margin-bottom: 8px
+	}
+
+	#blck-btn {
+		font-size: .9rem;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		left: 50px
+	}
+
+}
+
+@media only screen and (max-width:640px) {
+	#animal-title {
+		right: -70px
+	}
+
+	#canciones-title {
+		right: -57px
+	}
+
+	#cuentos-title {
+		right: -50px
+	}
+
+	#dibujos-title {
+		right: -30px
+	}
+
+	#english-title {
+		right: -30px;
+		font-size: 30px;
+		line-height: 37px
+	}
+
+	#english-text-container {
+		width: 282px;
+		height: 79px;
+		right: -71px;
+		top: 100px
+	}
+
+	#frases-title {
+		right: -30px
+	}
+
+	#infantiles-title {
+		right: -40px
+	}
+
+	#joke-title {
+		right: -30px
+	}
+
+	#header-character {
+		right: 10px
+	}
+
+	#language-title {
+		right: -25px
+	}
+
+	#math-title {
+		right: -70px
+	}
+
+	#multiplication-title {
+		right: -40px
+	}
+
+	#navidad-title {
+		right: -70px
+	}
+
+	#riddle-title {
+		right: -35px
+	}
+
+	#science-title {
+		right: -82px
+	}
+
+	#trabalenguas-title {
+		right: -35px
+	}
+
+	#video-title {
+		right: -57px
+	}
+
+}
+
+@media only screen and (max-width:639px) {
+	.other-level-icons {
+		left: -20px
+	}
+
+	#level-header-img {
+		left: 200px
+	}
+
+	#puma-header-img {
+		left: 200px
+	}
+
+	#level-header-text-container {
+		left: 60px
+	}
+
+	#exploradores-header-title {
+		left: 65px
+	}
+
+	#curiosos-header-title {
+		left: 58px
+	}
+
+	#ingeniosos-header-title {
+		left: 71px
+	}
+
+}
+
+@media only screen and (max-width:619px) {
+	.other-level-icons {
+		left: -26px
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.icon-img {
+		width: 60px;
+		height: 60px
+	}
+
+	.character-icon-img {
+		width: 130px;
+		height: 110px
+	}
+
+	.title {
+		text-align: center
+	}
+
+	.footer-btn {
+		margin-right: auto;
+		margin-left: auto;
+		display: block
+	}
+
+	#social-media-list {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		position: relative;
+		left: 15px
+	}
+
+	#link-to-us-txt {
+		text-align: center
+	}
+
+	#copyright-txt {
+		font-size: 16px
+	}
+
+	#animal-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_animales605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#animal-title {
+		top: 4px;
+		right: 65px;
+		font-size: 28px;
+		width: 250px
+	}
+
+	#canciones-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_canciones_605x250.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#canciones-title {
+		top: 3px;
+		left: -110px
+	}
+
+	#cuentos-title {
+		top: 5px;
+		right: 70px;
+		font-size: 28px
+	}
+
+	#cuentos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_cuentos605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#dibujos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_colorear605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#dibujos-title {
+		top: 4px;
+		right: 95px;
+		font-size: 28px;
+		width: 200px
+	}
+
+	#english-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ingles605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#english-title {
+		top: 5px;
+		right: 88px;
+		font-size: 28px
+	}
+
+	#english-text-container {
+		right: 50px;
+		top: 20px
+	}
+
+	#frases-title {
+		top: 5px;
+		right: 90px;
+		font-size: 28px
+	}
+
+	#infantiles-header-img {
+		background-image: url("https://res.cloudinary.com/arbol-abc/image/upload/v1521475331/Juegos%20Infantiles/Landing%20Page/bg_infantil605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#infantiles-title {
+		top: 5px;
+		right: 95px;
+		font-size: 28px;
+		width: 180px
+	}
+
+	#joke-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_chistes605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#joke-title {
+		top: 4px;
+		right: 95px;
+		font-size: 28px;
+		width: 200px
+	}
+
+	#header-character {
+		position: absolute;
+		right: -90px;
+		top: 105px;
+		height: 145px;
+		width: 180.525px
+	}
+
+	#language-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#language-title {
+		top: 5px;
+		right: 90px;
+		font-size: 28px
+	}
+
+	#exploradores-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivela_605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#curiosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#ingeniosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivelb_605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#level-header-img {
+		width: 213.8px;
+		height: 173.55px;
+		left: 190px;
+		top: 76.5px
+	}
+
+	#puma-header-img {
+		width: 213.8px;
+		height: 173.55px;
+		left: 190px;
+		top: 76.5px
+	}
+
+	#level-header-text-container {
+		left: 60px;
+		width: 179.25px;
+		height: 133.23px
+	}
+
+	#exploradores-header-title {
+		left: 62px;
+		font-size: 19px;
+		width: 180px
+	}
+
+	#curiosos-header-title {
+		left: 55px;
+		font-size: 19px;
+		width: 190px
+	}
+
+	#ingeniosos-header-title {
+		left: 68px;
+		top: 50px;
+		font-size: 17px;
+		width: 170px
+	}
+
+	#math-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_math605px.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#math-title {
+		top: 5px;
+		right: 50px;
+		font-size: 28px
+	}
+
+	#multiplication-title {
+		top: 5px;
+		right: 80px;
+		font-size: 28px
+	}
+
+	#navidad-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Juegos_infantiles/juegos_de_navidad/Background_%20juegos_%20Navidad%20_605_F.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#navidad-title {
+		top: 6px;
+		right: 65px;
+		font-size: 28px;
+		width: 250px
+	}
+
+	#riddle-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_adivinanzas605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#riddle-title {
+		top: 5px;
+		right: 100px;
+		font-size: 28px;
+		width: 180px
+	}
+
+	#science-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ciencias605.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#science-title {
+		top: 4px;
+		right: 65px;
+		font-size: 28px;
+		width: 250px
+	}
+
+	#trabalenguas-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_trabalenguas605V1.jpg");
+		height: 250px;
+		overflow-x: hidden
+	}
+
+	#trabalenguas-title {
+		top: 3px;
+		right: 105px;
+		font-size: 28px;
+		width: 180px
+	}
+
+	#video-title {
+		top: 3px;
+		left: -110px
+	}
+
+}
+
+@media only screen and (max-width:599px) {
+	.email-modal {
+		left: 10%;
+		right: 10%
+	}
+
+	.edge-modal {
+		left: 7%;
+		right: 7%;
+		height: 310px
+	}
+
+}
+
+@media only screen and (max-width:576px) {
+	.blogCard {
+		height: 200px
+	}
+
+	.feature-card-title {
+		font-size: 18px
+	}
+
+	.blog-subtitle {
+		font-size: 20px
+	}
+
+	#blog-author-title {
+		font-size: 20px
+	}
+
+	.user-conditions-title {
+		font-size: 9px
+	}
+
+	#game-text-title {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 1.4rem
+	}
+
+	#game-text {
+		font-size: 16px;
+		margin-bottom: 10px
+	}
+
+	.obj-text {
+		font-size: 16px;
+		margin-bottom: 10px
+	}
+
+	.blocktext {
+		font-size: 16px;
+		margin-left: 30px
+	}
+
+	#objective-title {
+		margin-bottom: 10px;
+		font-size: 1.4rem
+	}
+
+	#game-text-div {
+		margin-top: 10px;
+		padding-bottom: 20px
+	}
+
+	.adiv-title {
+		font-size: 14px
+	}
+
+	.question {
+		font-size: 18px;
+		margin-right: 0px;
+		margin-top: 0px
+	}
+
+	.tongue-twister {
+		font-size: 18px;
+		margin-top: 0px;
+		margin-left: 10px;
+		margin-right: 10px
+	}
+
+	.answer {
+		font-size: 18px;
+		margin-right: 0px
+	}
+
+	.answer-hide {
+		font-size: 18px;
+		margin-right: 0px
+	}
+
+	.riddle-btn {
+		position: static;
+		width: 87.5px;
+		height: 90.63px
+	}
+
+	.riddle-btn-col {
+		text-align: right
+	}
+
+	#chiste-h3 {
+		font-size: 22px
+	}
+
+	.joke-menu {
+		font-size: 16px
+	}
+
+	#game-thumbnail-title {
+		font-size: 28px
+	}
+
+	.carousel-thumbnail-name {
+		font-size: 15px
+	}
+
+	.white-carousel-name {
+		font-size: 15px
+	}
+
+	.carousel-likes {
+		font-size: 15px
+	}
+
+	#canciones-title {
+		left: -60px;
+		font-size: 22px;
+		width: 230px
+	}
+
+	#header-character {
+		right: -120px
+	}
+
+	#landing-title {
+		font-size: 22px
+	}
+
+	#landing-subtitle {
+		font-size: 16px
+	}
+
+	#title-elems-row {
+		display: block;
+		margin-right: auto;
+		margin-left: auto
+	}
+
+	#landing-header-img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		height: 97.5px;
+		margin-bottom: 10px
+	}
+
+	#title-elems-row {
+		margin-top: 20px
+	}
+
+	.landing-top-text {
+		font-size: 0.95rem
+	}
+
+	#video-title {
+		left: -70px;
+		font-size: 20px;
+		width: 230px
+	}
+
+}
+
+@media only screen and (max-width:575px) {
+	.quiz-modal {
+		left: 10%;
+		right: 10%;
+		height: 280px
+	}
+
+	.quiz-modal-gif {
+		height: 125px
+	}
+
+	.quiz-modal-text {
+		font-size: 24px
+	}
+
+	.incorrect-icon {
+		width: 12px;
+		height: 12px
+	}
+
+	.check-mark-icon {
+		width: 12px;
+		height: 15px
+	}
+
+	.btn-ciencia {
+		font-size: 16px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 10px;
+		padding-left: 10px
+	}
+
+	.btn-ciencia-active {
+		font-size: 16px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 10px;
+		padding-left: 10px
+	}
+
+	.multiplication-table-text {
+		font-size: 20px
+	}
+
+	.share-txt {
+		font-size: 16px
+	}
+
+	#byline-date {
+		position: static
+	}
+
+	.byline-txt {
+		display: block
+	}
+
+	.article-share-col {
+		text-align: center
+	}
+
+	.prelectores-bold {
+		width: auto
+	}
+
+	.lectores-bold {
+		width: auto
+	}
+
+	.prelectores-icon-row {
+		margin-bottom: 10px
+	}
+
+	.lectores-icon-row {
+		margin-bottom: 10px
+	}
+
+	.landing-rt-col {
+		margin-right: 0px;
+		margin-left: 0px
+	}
+
+	#social-title {
+		font-size: 28px
+	}
+
+	.social-text {
+		font-size: .95rem
+	}
+
+	.impact-icon-title {
+		font-size: .95rem
+	}
+
+	.social-subtitle {
+		margin-bottom: 10px
+	}
+
+	.impact-icons {
+		margin-bottom: 40px
+	}
+
+	.impact-icon-stat {
+		margin-top: 10px;
+		margin-bottom: 0px
+	}
+
+	.impact-subtitle {
+		margin-bottom: 0px
+	}
+
+	.methodology-text {
+		font-size: 18px;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: left
+	}
+
+	.meto-img-txt {
+		font-size: 15px;
+		margin-left: 110px;
+		margin-right: 110px
+	}
+
+	#link-title-row {
+		margin-top: 10px
+	}
+
+	.link-page-text {
+		font-size: .95rem
+	}
+
+	#link-page-subtitle {
+		font-size: 18px
+	}
+
+	#link-page-title {
+		font-size: 28px
+	}
+
+	.link-img-col {
+		text-align: center;
+		margin-bottom: 10px
+	}
+
+	.link-name-col {
+		text-align: center
+	}
+
+	.code-div {
+		position: relative;
+		left: 12%
+	}
+
+	.link-div {
+		margin-bottom: 20px
+	}
+
+	#historia-title {
+		font-size: 28px
+	}
+
+	.landscape-img {
+		width: 90%
+	}
+
+	.coloring-stat-div {
+		margin-left: 70px;
+		margin-right: 70px
+	}
+
+	#coloring-btn {
+		font-size: 16px
+	}
+
+	.coloring-stats {
+		font-size: 18px
+	}
+
+	.print-icon {
+		height: 24px;
+		width: 24px
+	}
+
+	#dibujo-title-span {
+		font-size: 20px
+	}
+
+	#dibujo-title {
+		font-size: 20px
+	}
+
+	#curriculum-page-title {
+		font-size: 28px;
+		margin-top: 20px
+	}
+
+	.curriculum-img-sm {
+		width: 50px;
+		height: 50px
+	}
+
+	#curriculum-slider {
+		padding-bottom: 10px
+	}
+
+	.filter-arrow {
+		width: 32px;
+		height: 32px
+	}
+
+	.filter-btn {
+		margin-left: 15px;
+		margin-right: 15px
+	}
+
+	.level-thumb-img {
+		width: 170px;
+		height: 55px
+	}
+
+	.new-thumbnail-card {
+		height: 190px
+	}
+
+	.thumbnail-name {
+		font-size: 15px
+	}
+
+	.thumbnail-name-dark {
+		font-size: 15px
+	}
+
+	.science-thumbnail-name {
+		margin-top: 15px
+	}
+
+	.thumbnail-txt {
+		display: none
+	}
+
+	.thumbnail-txt-dark {
+		display: none
+	}
+
+	.science-thumbnail-title {
+		display: none
+	}
+
+	.primary-age-range {
+		width: 30px;
+		height: 30px;
+		bottom: 56px
+	}
+
+	.thumbnail-card-body {
+		height: 65px
+	}
+
+	#science-thumbnail-title {
+		font-size: 22px
+	}
+
+	#thumbnail-title {
+		font-size: 22px
+	}
+
+	#secondary-thumbnail-title {
+		font-size: 22px
+	}
+
+	#primary-txt-title {
+		font-size: 22px
+	}
+
+	#txt-title {
+		font-size: 22px
+	}
+
+	.joke-txt-title {
+		font-size: 22px
+	}
+
+	.primary-landing-txt {
+		font-size: .95rem
+	}
+
+	#sliderBook-title {
+		font-size: 28px
+	}
+
+	.avatar-img {
+		width: 50px
+	}
+
+	.testimonial-name {
+		font-size: 16px
+	}
+
+	.stars {
+		width: 80px
+	}
+
+	.testimonial-text {
+		font-size: .95rem
+	}
+
+	.name-star-div {
+		text-align: center
+	}
+
+	#animal-slider-title {
+		font-size: 1.4rem
+	}
+
+	#slick-slider-title {
+		margin-top: 10px;
+		font-size: 1.4rem
+	}
+
+	#science-slider-title {
+		font-size: 1.4rem
+	}
+
+	#slick-slider-div {
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+
+	#story-slider-load-div {
+		bottom: 70px
+	}
+
+	.lectores-icon-img {
+		width: 90px;
+		height: 90px
+	}
+
+	.nav-item2 {
+		font-size: 0.95rem
+	}
+
+	#nuestra-portal {
+		display: none
+	}
+
+	.icon-txt {
+		font-size: 16px
+	}
+
+	#icon-container {
+		margin-bottom: 10px
+	}
+
+	.phrase-card {
+		width: 380px
+	}
+
+	.phrase-title {
+		color: #666;
+		font-size: .85rem
+	}
+
+	.phrase-blockquote {
+		font-size: 1rem
+	}
+
+	#bubble-blck-img {
+		display: none
+	}
+
+	#blck-announcement-div {
+		margin-right: 7.5%;
+		margin-left: 7.5%
+	}
+
+	.blck-text-div {
+		position: static;
+		margin-top: 30px;
+		width: 100%;
+		line-height: 1.5;
+		display: block
+	}
+
+	.blck-subtitle {
+		text-align: center
+	}
+
+	.blck-text-title {
+		position: static;
+		text-align: center
+	}
+
+	#blck-btn {
+		position: static;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%
+	}
+
+	#blck-btn {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px
+	}
+
+	#blck-div {
+		background-image: none
+	}
+
+	#help-title {
+		color: #666
+	}
+
+	#help-text {
+		color: #666
+	}
+
+	.ad-row {
+		margin-top: 10px;
+		margin-bottom: 20px
+	}
+
+	#article-title {
+		font-size: 26px
+	}
+
+	.article-subtitle {
+		font-size: 20px;
+		margin-top: 10px
+	}
+
+	.definition-word {
+		font-size: 18px
+	}
+
+	.definition-txt {
+		font-size: 14px
+	}
+
+	.quiz-submit {
+		font-size: 14px
+	}
+
+	.quiz-answer {
+		font-size: 14px
+	}
+
+	.statistic-subtitle {
+		font-size: 20px;
+		margin-top: 10px
+	}
+
+	.fact-subtitle {
+		font-size: 16px
+	}
+
+	#light-bulb {
+		height: 35px;
+		width: 22.25px
+	}
+
+	.facts-div {
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px
+	}
+
+	.paragraph-title {
+		font-size: 18px
+	}
+
+	.paragraph-subtitle {
+		font-size: 16px
+	}
+
+	h4 {
+		font-size: 16px
+	}
+
+	.historia-subtitle {
+		font-size: 18px
+	}
+
+	.paragraph-text {
+		font-size: 0.95rem
+	}
+
+	.horizontal-paragraph-text {
+		font-size: 0.95rem;
+		margin-bottom: 0px
+	}
+
+	.scienceArrowNext {
+		right: -40px
+	}
+
+	.scienceArrowPrev {
+		left: -40px
+	}
+
+	.storyArrowNext {
+		right: -12px
+	}
+
+	.storyArrowPrev {
+		left: -12px
+	}
+
+	.fa-3x {
+		font-size: 2.25em
+	}
+
+	#icon-bar {
+		margin-top: 10px
+	}
+
+	#character-button-title {
+		margin-top: 10px;
+		font-size: 1.4rem
+	}
+
+	#game-charBtn-container {
+		margin-top: 10px;
+		margin-bottom: 10px
+	}
+
+	.lectoresArrowNext {
+		right: -43px
+	}
+
+	.lectoresArrowPrev {
+		left: -53px
+	}
+
+	#experiment-title {
+		font-size: 28px
+	}
+
+	#note-title {
+		font-size: 24px;
+		margin-left: 10px
+	}
+
+	#note-text {
+		margin-right: 10px;
+		margin-left: 10px
+	}
+
+	.procedure-text {
+		margin-right: 10px;
+		margin-left: 10px
+	}
+
+	.procedure-text-div {
+		margin-bottom: 0px
+	}
+
+	.experiment-div-title {
+		font-size: 24px
+	}
+
+	#portrait-game-wrapper {
+		padding-bottom: 133%
+	}
+
+	#load-text {
+		display: none
+	}
+
+	#load-div {
+		top: 30px
+	}
+
+	#game-page-title {
+		font-size: 28px
+	}
+
+	#home-header-sticker {
+		position: relative;
+		top: 10px;
+		right: 140px;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#prev-btn {
+		position: relative;
+		right: 0px
+	}
+
+	#next-btn {
+		position: relative;
+		left: 0px
+	}
+
+	.home-carousel-img {
+		width: 180px;
+		height: 200;
+		position: relative;
+		top: -7px;
+		overflow: visible
+	}
+
+	#carousel-div {
+		position: relative;
+		bottom: 60px
+	}
+
+	#home-header {
+		overflow: hidden
+	}
+
+	#level-header-img {
+		left: 205px
+	}
+
+	#puma-header-img {
+		left: 215px
+	}
+
+	#level-header-text-container {
+		left: 75px;
+		top: 63px
+	}
+
+	#exploradores-header-title {
+		left: 75px;
+		top: 63px
+	}
+
+	#curiosos-header-title {
+		left: 74px;
+		top: 65px;
+		font-size: 18px;
+		width: 180px
+	}
+
+	#ingeniosos-header-title {
+		left: 83px;
+		top: 65px
+	}
+
+	#mobile-other-level-img {
+		display: inline-block
+	}
+
+	#mobile-left {
+		position: absolute;
+		top: 0px;
+		left: 15px;
+		width: 270px;
+		height: 53px
+	}
+
+	#mobile-right {
+		position: absolute;
+		top: 0px;
+		right: 16px;
+		width: 270px;
+		height: 53px
+	}
+
+}
+
+@media only screen and (max-width:559px) {
+	#mobile-left {
+		width: 260px;
+		height: 51px
+	}
+
+	#mobile-right {
+		width: 260px;
+		height: 51px
+	}
+
+}
+
+@media only screen and (max-width:542px) {
+	.primary-age-range {
+		bottom: 66px
+	}
+
+}
+
+@media only screen and (max-width:539px) {
+	#canciones-title {
+		font-size: 21px;
+		width: 210px;
+		left: -75px
+	}
+
+	#mobile-left {
+		width: 250px;
+		height: 49px
+	}
+
+	#mobile-right {
+		width: 250px;
+		height: 49px
+	}
+
+	#video-title {
+		font-size: 19px;
+		width: 220px;
+		left: -75px
+	}
+
+}
+
+@media only screen and (max-width:519px) {
+	.curriculum-icon-title {
+		position: relative;
+		left: 120px
+	}
+
+	.curriculum-img-sm {
+		position: relative;
+		left: 120px
+	}
+
+	#mobile-left {
+		width: 240px;
+		height: 47px
+	}
+
+	#mobile-right {
+		width: 240px;
+		height: 47px
+	}
+
+}
+
+@media only screen and (max-width:509px) {
+	.primary-age-range {
+		bottom: 76px
+	}
+
+}
+
+@media only screen and (max-width:500px) {
+	.meto-img-txt {
+		margin-left: 70px;
+		margin-right: 70px;
+		font-size: 14px
+	}
+
+	#methodology-title {
+		font-size: 28px
+	}
+
+	.methodology-text {
+		font-size: 16px
+	}
+
+	#meto-h2 {
+		font-size: 24px
+	}
+
+	#logo {
+		width: 135px;
+		height: 45px
+	}
+
+	.home-carousel-img {
+		width: 162px;
+		height: 180px;
+		top: -7px
+	}
+
+	#carousel-div {
+		position: relative;
+		bottom: 40px
+	}
+
+	.home-carousel-control-next {
+		top: 75px
+	}
+
+	.home-carousel-control-prev {
+		top: 75px
+	}
+
+}
+
+@media only screen and (max-width:499px) {
+	#moral-div {
+		font-size: 1.08rem
+	}
+
+	.stars {
+		width: 60px
+	}
+
+	#blck-btn {
+		width: 70%
+	}
+
+	.carousel-like-div {
+		display: none
+	}
+
+	.carousel-card {
+		height: 155px
+	}
+
+	.carousel-thumbnail-name {
+		font-size: 14px
+	}
+
+	.white-carousel-name {
+		font-size: 14px
+	}
+
+	#animal-title {
+		right: 45px
+	}
+
+	#cuentos-title {
+		right: 45px
+	}
+
+	#dibujos-title {
+		right: 70px
+	}
+
+	#english-text-container {
+		right: 30px
+	}
+
+	#english-title {
+		right: 68px
+	}
+
+	#frases-title {
+		right: 70px
+	}
+
+	#infantiles-title {
+		right: 70px
+	}
+
+	#joke-title {
+		right: 70px
+	}
+
+	#language-title {
+		right: 75px
+	}
+
+	#level-header-img {
+		left: 180px
+	}
+
+	#puma-header-img {
+		left: 190px
+	}
+
+	#level-header-text-container {
+		left: 60px;
+		top: 53px
+	}
+
+	#exploradores-header-title {
+		left: 60px;
+		top: 53px
+	}
+
+	#curiosos-header-title {
+		font-size: 18px;
+		width: 175px;
+		left: 57px;
+		top: 61px
+	}
+
+	#ingeniosos-header-title {
+		left: 68px;
+		top: 60px
+	}
+
+	#mobile-left {
+		width: 230px;
+		height: 45px
+	}
+
+	#mobile-right {
+		width: 230px;
+		height: 45px
+	}
+
+	#math-title {
+		right: 30px
+	}
+
+	#multiplication-title {
+		right: 58px
+	}
+
+	#navidad-title {
+		right: 45px
+	}
+
+	#riddle-title {
+		right: 80px
+	}
+
+	#science-title {
+		right: 45px
+	}
+
+	#trabalenguas-title {
+		right: 80px
+	}
+
+}
+
+@media only screen and (max-width:479px) {
+	#closeout-btn {
+		position: relative;
+		left: 150px
+	}
+
+	.curriculum-icon-title {
+		position: relative;
+		left: 90px
+	}
+
+	.curriculum-img-sm {
+		position: relative;
+		left: 90px
+	}
+
+	.new-thumbnail-card {
+		height: 175px
+	}
+
+	.primary-age-range {
+		bottom: 60px;
+		height: 25px;
+		width: 25px
+	}
+
+	.thumbnail-card-body {
+		height: 70px
+	}
+
+	.thumbnail-name {
+		font-size: 14px
+	}
+
+	.thumbnail-name-dark {
+		font-size: 14px
+	}
+
+	.science-thumbnail-name {
+		font-size: 14px
+	}
+
+	#lyric-div {
+		margin-left: 0px;
+		margin-right: auto;
+		column-count: 1
+	}
+
+	.icon-img {
+		width: 55px;
+		height: 55px
+	}
+
+	.character-icon-img {
+		width: 95px;
+		height: 80px
+	}
+
+	.experimentArrowPrev {
+		left: -15px
+	}
+
+	.experimentArrowNext {
+		right: -7px
+	}
+
+	#copyright-txt {
+		font-size: 14px
+	}
+
+	#mobile-left {
+		width: 220px;
+		height: 43px
+	}
+
+	#mobile-right {
+		width: 220px;
+		height: 43px
+	}
+
+}
+
+@media only screen and (max-width:475px) {
+	.coloring-stat-div {
+		margin-left: 50px;
+		margin-right: 50px
+	}
+
+}
+
+@media only screen and (max-width:465px) {
+	.filter-input {
+		width: 41px;
+		height: 34px
+	}
+
+	.filter-btn {
+		margin-right: 20px;
+		margin-left: 20px
+	}
+
+	#video-title {
+		left: -87px
+	}
+
+}
+
+@media only screen and (max-width:459px) {
+	.new-thumbnail-card {
+		height: 165px
+	}
+
+	#mobile-left {
+		width: 210px;
+		height: 41px
+	}
+
+	#mobile-right {
+		width: 210px;
+		height: 41px
+	}
+
+	#level-header-img {
+		left: 160px
+	}
+
+	#level-header-text-container {
+		left: 35px
+	}
+
+	#exploradores-header-title {
+		left: 35px
+	}
+
+	#curiosos-header-title {
+		left: 35px
+	}
+
+	#ingeniosos-header-title {
+		left: 45px;
+		top: 65px;
+		font-size: 16px
+	}
+
+	#puma-header-img {
+		left: 170px
+	}
+
+}
+
+@media only screen and (max-width:450px) {
+	.quiz-modal {
+		left: 5%;
+		right: 5%;
+		height: 280px
+	}
+
+	.curriculum-subtitle {
+		text-align: center;
+		padding-bottom: 10px;
+		border-bottom: solid 2px #ddd;
+		font-size: .9rem
+	}
+
+	.curriculum-text {
+		text-align: center;
+		padding-bottom: 10px;
+		border-bottom: solid 2px #ddd;
+		font-size: .9rem
+	}
+
+	#curriculum-slider {
+		padding-bottom: 0px
+	}
+
+	.article-text {
+		font-size: .9rem
+	}
+
+	.fact-checkmarks {
+		font-size: .6em
+	}
+
+	.fact-text {
+		font-size: .9rem
+	}
+
+	.stat-text {
+		font-size: .9rem
+	}
+
+	.endangered-text {
+		font-size: .9rem
+	}
+
+	.stat-title {
+		font-size: 13px
+	}
+
+	.experiment-text {
+		font-size: .9rem
+	}
+
+	#experiment-title {
+		font-size: 24px
+	}
+
+	.procedure-text {
+		font-size: .9rem
+	}
+
+	.experiment-div-title {
+		font-size: 20px
+	}
+
+	#note-title {
+		font-size: 20px
+	}
+
+	#note-text {
+		font-size: .9rem
+	}
+
+}
+
+@media only screen and (max-width:449px) {
+	.carousel-card {
+		height: 145px
+	}
+
+	.phrase-card {
+		width: 330px
+	}
+
+	.banner-div {
+		display: none
+	}
+
+}
+
+@media only screen and (max-width:439px) {
+	#mobile-left {
+		width: 200px;
+		height: 39px
+	}
+
+	#mobile-right {
+		width: 200px;
+		height: 39px
+	}
+
+	#video-title {
+		left: -97px
+	}
+
+}
+
+@media only screen and (max-width:429px) {
+	.curriculum-icon-title {
+		position: relative;
+		left: 70px
+	}
+
+	.curriculum-img-sm {
+		position: relative;
+		left: 70px
+	}
+
+	.nav-item {
+		margin-right: 7px;
+		margin-left: 7px
+	}
+
+	.nav-btn {
+		font-size: 9px
+	}
+
+	#logo {
+		width: 120px;
+		height: 35px
+	}
+
+	#home-header-sticker {
+		width: 100px;
+		height: 83px;
+		position: relative;
+		top: 10px;
+		right: 80px;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	#carousel-div {
+		bottom: 20px
+	}
+
+}
+
+@media only screen and (max-width:420px) {
+	#title {
+		font-size: 28px
+	}
+
+	#intelligences-img {
+		display: none
+	}
+
+	#intelligences-img-mobile {
+		display: block
+	}
+
+	.fa-3x {
+		font-size: 2em
+	}
+
+	.slickArrowPrev {
+		left: 0px
+	}
+
+	.slickArrowNext {
+		right: 8px
+	}
+
+	.animalArrowNext {
+		right: -38px
+	}
+
+	.animalArrowPrev {
+		left: -33px
+	}
+
+	.scienceArrowPrev {
+		left: -35px
+	}
+
+	.storyArrowNext {
+		right: -17px
+	}
+
+	#animal-title {
+		width: 210px;
+		right: 40px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#animal-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_animales425.jpg")
+	}
+
+	#canciones-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_canciones_425x250.jpg")
+	}
+
+	#canciones-title {
+		font-size: 19px;
+		width: 190px;
+		left: -62px;
+		top: 18px;
+		line-height: 30px
+	}
+
+	#cuentos-title {
+		width: 200px;
+		right: 45px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#cuentos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_cuentos425.jpg")
+	}
+
+	#dibujos-title {
+		width: 180px;
+		right: 57px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#dibujos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_colorear425.jpg")
+	}
+
+	#english-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ingles425.jpg")
+	}
+
+	#english-text-container {
+		width: 232px;
+		height: 65px;
+		right: 30px;
+		top: 35px
+	}
+
+	#english-title {
+		right: 45px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#frases-title {
+		width: 150px;
+		right: 70px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#infantiles-header-img {
+		background-image: url("https://res.cloudinary.com/arbol-abc/image/upload/v1521475331/Juegos%20Infantiles/Landing%20Page/bg_infantil425.jpg")
+	}
+
+	#infantiles-title {
+		width: 160px;
+		right: 60px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#joke-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_chistes425.jpg")
+	}
+
+	#joke-title {
+		width: 180px;
+		right: 57px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#language-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage425.jpg")
+	}
+
+	#language-title {
+		width: 180px;
+		right: 55px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#exploradores-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivela_425.jpg")
+	}
+
+	#curiosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_lenguage425.jpg")
+	}
+
+	#ingeniosos-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bgnivelb_425.jpg")
+	}
+
+	#mobile-left {
+		width: 190px;
+		height: 37px
+	}
+
+	#mobile-right {
+		width: 190px;
+		height: 37px
+	}
+
+	#math-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_math425px.jpg")
+	}
+
+	#math-title {
+		width: 230px;
+		right: 32px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#multiplication-title {
+		width: 180px;
+		right: 53px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#navidad-title {
+		width: 210px;
+		right: 40px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#navidad-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Juegos_infantiles/juegos_de_navidad/Background_%20juegos_%20Navidad%20_425_F.jpg")
+	}
+
+	#joke-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_adivinanzas425.jpg")
+	}
+
+	#riddle-title {
+		width: 160px;
+		right: 60px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#science-title {
+		width: 230px;
+		right: 30px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#science-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_ciencias425.jpg")
+	}
+
+	#trabalenguas-header-img {
+		background-image: url("https://arbolabc.nyc3.cdn.digitaloceanspaces.com/Backgrounds/bg_trabalenguas425V1.jpg")
+	}
+
+	#trabalenguas-title {
+		width: 160px;
+		right: 65px;
+		font-size: 24px;
+		line-height: 30px;
+		top: 20px
+	}
+
+	#video-title {
+		font-size: 17px;
+		width: 200px;
+		left: -72px;
+		top: 18px;
+		line-height: 30px
+	}
+
+}
+
+@media only screen and (max-width:419px) {
+	.new-thumbnail-card {
+		height: 155px
+	}
+
+	.primary-age-range {
+		bottom: 50px
+	}
+
+}
+
+@media only screen and (max-width:406px) {
+	.fact-checkmarks {
+		position: absolute;
+		left: 0px
+	}
+
+	.fact-text {
+		position: relative;
+		left: 20px
+	}
+
+	#article-title {
+		font-size: 24px
+	}
+
+	.article-subtitle {
+		font-size: 18px
+	}
+
+	.definition-word {
+		font-size: 16px
+	}
+
+	.statistic-subtitle {
+		font-size: 18px
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	#methodology-title {
+		font-size: 24px
+	}
+
+	.meto-img-txt {
+		margin-left: 20px;
+		margin-right: 20px
+	}
+
+	#meto-h2 {
+		font-size: 22px
+	}
+
+}
+
+@media only screen and (max-width:399px) {
+	.blog-card-title {
+		font-size: 18px
+	}
+
+	.blog-card-text {
+		font-size: 14px
+	}
+
+	.feature-card-title {
+		font-size: 16px
+	}
+
+	.blog-subtitle {
+		font-size: 18px
+	}
+
+	#blog-author-title {
+		font-size: 18px
+	}
+
+	.prelectores-bold {
+		font-size: 15px
+	}
+
+	.lectores-bold {
+		font-size: 15px
+	}
+
+	.prelectores-icon-row {
+		margin-bottom: 0px
+	}
+
+	.lectores-icon-row {
+		margin-bottom: 0px
+	}
+
+	#inline-container {
+		padding-left: 0;
+		padding-right: 0
+	}
+
+	#social-title {
+		font-size: 24px
+	}
+
+	.social-text {
+		font-size: .9rem
+	}
+
+	.impact-icon-title {
+		font-size: .9rem;
+		margin-left: 45px;
+		margin-right: 45px
+	}
+
+	.social-subtitle {
+		font-size: 20px
+	}
+
+	.impact-subtitle {
+		font-size: 20px
+	}
+
+	.impact-icon-stat {
+		font-size: 28px
+	}
+
+	.link-page-text {
+		font-size: .9rem
+	}
+
+	#link-page-subtitle {
+		font-size: 16px
+	}
+
+	#link-page-title {
+		font-size: 24px
+	}
+
+	.link-name {
+		font-size: 16px
+	}
+
+	#historia-title {
+		font-size: 24px
+	}
+
+	#dibujo-title-span {
+		font-size: 18px
+	}
+
+	#dibujo-title {
+		font-size: 18px
+	}
+
+	.coloring-stats {
+		font-size: 16px
+	}
+
+	.coloring-stat-div {
+		margin-left: 30px;
+		margin-right: 30px
+	}
+
+	.landscape-img {
+		width: 100%
+	}
+
+	.curriculum-icon-title {
+		font-size: 16px
+	}
+
+	.curriculum-icon-title {
+		position: relative;
+		left: 55px
+	}
+
+	.curriculum-img-sm {
+		position: relative;
+		left: 55px
+	}
+
+	.filter-arrow {
+		width: 28px;
+		height: 28px
+	}
+
+	.filter-input {
+		width: 35px;
+		height: 29px
+	}
+
+	.level-thumb-img {
+		width: 150px;
+		height: 48.5px
+	}
+
+	.new-thumbnail-card {
+		height: 140px
+	}
+
+	.thumbnail-card-body {
+		height: 62px
+	}
+
+	.primary-age-range {
+		bottom: 45px
+	}
+
+	#thumbnail-title {
+		font-size: 20px
+	}
+
+	#science-thumbnail-title {
+		font-size: 20px
+	}
+
+	#secondary-thumbnail-title {
+		font-size: 20px
+	}
+
+	.thumbnail-name {
+		font-size: 13px;
+		margin-top: 5px
+	}
+
+	.thumbnail-name-dark {
+		font-size: 13px;
+		margin-top: 5px
+	}
+
+	.science-thumbnail-name {
+		font-size: 13px;
+		margin-top: 5px
+	}
+
+	#primary-txt-title {
+		font-size: 20px
+	}
+
+	#txt-title {
+		font-size: 20px
+	}
+
+	.joke-txt-title {
+		font-size: 20px
+	}
+
+	.primary-landing-txt {
+		font-size: .9rem
+	}
+
+	#game-text-title {
+		margin-bottom: 10px;
+		font-size: 1.2rem
+	}
+
+	#game-text {
+		font-size: 14px;
+		margin-bottom: 10px
+	}
+
+	.obj-text {
+		font-size: 14px;
+		margin-bottom: 10px
+	}
+
+	.blocktext {
+		font-size: 14px
+	}
+
+	#objective-title {
+		margin-bottom: 10px;
+		font-size: 1.2rem
+	}
+
+	#lyric-div {
+		margin-left: 0px;
+		margin-right: auto
+	}
+
+	.fa {
+		margin-left: -5px
+	}
+
+	#story-title {
+		font-size: 24px
+	}
+
+	#blog-article-title {
+		font-size: 24px
+	}
+
+	.audio-text {
+		font-size: 12px
+	}
+
+	audio {
+		width: 80%
+	}
+
+	#sliderBook-title {
+		font-size: 24px
+	}
+
+	.stars {
+		width: 55px
+	}
+
+	.testimonial-name {
+		font-size: 15px
+	}
+
+	.testimonial-text {
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		font-size: .9rem;
+		line-height: 1.4
+	}
+
+	#slick-slider-title {
+		font-size: 1.2rem
+	}
+
+	#science-slider-title {
+		font-size: 1.2rem
+	}
+
+	#animal-slider-title {
+		font-size: 1.1rem
+	}
+
+	#story-slider-load-div {
+		bottom: 30px
+	}
+
+	.lectores-icon-img {
+		width: 80px;
+		height: 80px
+	}
+
+	.adiv-title {
+		font-size: 12px
+	}
+
+	.question {
+		font-size: 16px
+	}
+
+	.tongue-twister {
+		font-size: 16px
+	}
+
+	.answer {
+		font-size: 16px
+	}
+
+	.answer-hide {
+		font-size: 16px
+	}
+
+	.riddle-btn {
+		width: 70px;
+		height: 72.5px
+	}
+
+	.email-modal {
+		left: 5%;
+		right: 5%
+	}
+
+	.edge-modal {
+		left: 3%;
+		right: 3%;
+		height: 310px
+	}
+
+	.icon-txt {
+		font-size: 15px
+	}
+
+	#icon-container {
+		margin-bottom: 0px
+	}
+
+	.phrase-card {
+		width: 280px
+	}
+
+	.phrase-title {
+		color: #666;
+		font-size: .8rem
+	}
+
+	.phrase-blockquote {
+		font-size: .9rem
+	}
+
+	.paragraph-title {
+		font-size: 16px
+	}
+
+	.paragraph-subtitle {
+		font-size: 14px
+	}
+
+	h4 {
+		font-size: 14px
+	}
+
+	.historia-subtitle {
+		font-size: 16px
+	}
+
+	.horizontal-paragraph-text {
+		font-size: 0.9rem
+	}
+
+	.paragraph-text {
+		font-size: 0.9rem
+	}
+
+	#character-button-title {
+		font-size: 1.2rem
+	}
+
+	#game-thumbnail-title {
+		font-size: 22px
+	}
+
+	.carousel-card {
+		height: 200px
+	}
+
+	.carousel-thumbnail-txt {
+		font-size: 14px
+	}
+
+	.carousel-thumbnail-name {
+		font-size: 15px
+	}
+
+	.white-carousel-name {
+		font-size: 15px
+	}
+
+	#game-page-title {
+		font-size: 24px
+	}
+
+	#canciones-title {
+		left: -70px
+	}
+
+	.home-carousel-img {
+		width: 144px;
+		height: 160px;
+		top: 0px
+	}
+
+	#level-header-text-container {
+		height: 123px;
+		width: 165px;
+		top: 40px
+	}
+
+	#exploradores-header-title {
+		left: 30px;
+		top: 44px;
+		font-size: 18px;
+		line-height: 1
+	}
+
+	#curiosos-header-title {
+		font-size: 17px;
+		left: 36px;
+		top: 41px;
+		width: 160px;
+		line-height: 1
+	}
+
+	#ingeniosos-header-title {
+		left: 58px;
+		top: 40px;
+		width: 125px;
+		text-align: left
+	}
+
+	#level-header-img {
+		width: 210px;
+		height: 158;
+		left: 135px
+	}
+
+	#puma-header-img {
+		width: 210px;
+		height: 158;
+		left: 135px
+	}
+
+	#mobile-left {
+		width: 180px;
+		height: 37px
+	}
+
+	#mobile-right {
+		width: 180px;
+		height: 37px
+	}
+
+	#landing-title {
+		font-size: 20px
+	}
+
+	#landing-subtitle {
+		font-size: 15px
+	}
+
+	.landing-top-text {
+		font-size: 0.90rem
+	}
+
+	#video-title {
+		left: -80px
+	}
+
+}
+
+@media only screen and (max-width:379px) {
+	.primary-age-range {
+		bottom: 50px
+	}
+
+	.nav-btn {
+		font-size: 9px
+	}
+
+	#logo {
+		width: 100px;
+		height: 30px
+	}
+
+	.nav-item {
+		font-size: .85rem;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.fa-3x {
+		font-size: 1.75em
+	}
+
+	.character-icon-img {
+		width: 80px;
+		height: 67.5px
+	}
+
+	.character-icons {
+		position: relative;
+		right: 10px
+	}
+
+	.scienceArrowNext {
+		right: -37px
+	}
+
+	.scienceArrowPrev {
+		left: -28px
+	}
+
+	.storyArrowNext {
+		right: -22px
+	}
+
+	.experimentArrowPrev {
+		left: -15px
+	}
+
+	.experimentArrowNext {
+		right: -7px
+	}
+
+	#animal-title {
+		right: 20px
+	}
+
+	#canciones-title {
+		font-size: 18px;
+		width: 180px;
+		left: -53px
+	}
+
+	#cuentos-title {
+		right: 25px
+	}
+
+	#dibujos-title {
+		right: 38px
+	}
+
+	#english-text-container {
+		right: 10px
+	}
+
+	#english-title {
+		right: 20px
+	}
+
+	#frases-title {
+		right: 50px
+	}
+
+	#infantiles-title {
+		right: 40px
+	}
+
+	#joke-title {
+		right: 38px
+	}
+
+	#language-title {
+		right: 30px
+	}
+
+	#mobile-left {
+		width: 170px;
+		height: 35px
+	}
+
+	#mobile-right {
+		width: 170px;
+		height: 35px
+	}
+
+	#math-title {
+		right: 10px
+	}
+
+	#multiplication-title {
+		right: 32px
+	}
+
+	#navidad-title {
+		right: 20px
+	}
+
+	#riddle-title {
+		right: 40px
+	}
+
+	#science-title {
+		right: 10px
+	}
+
+	#trabalenguas-title {
+		right: 47px
+	}
+
+	#video-title {
+		left: -68px
+	}
+
+}
+
+@media only screen and (max-width:374px) {
+	#closeout-btn {
+		position: relative;
+		left: 120px
+	}
+
+}
+
+@media only screen and (max-width:369px) {
+	#blck-btn {
+		width: 80%
+	}
+
+}
+
+@media only screen and (max-width:359px) {
+	.curriculum-icon-title {
+		position: relative;
+		left: 35px
+	}
+
+	.curriculum-img-sm {
+		position: relative;
+		left: 35px
+	}
+
+	.carousel-card {
+		height: 180px
+	}
+
+	#level-header-text-container {
+		left: 20px
+	}
+
+	#exploradores-header-title {
+		left: 13px
+	}
+
+	#curiosos-header-title {
+		font-size: 16px;
+		width: 150px;
+		left: 20px;
+		top: 41px;
+		z-index: 2
+	}
+
+	#ingeniosos-header-title {
+		left: 45px;
+		top: 36px
+	}
+
+	#level-header-img {
+		left: 105px
+	}
+
+	#puma-header-img {
+		left: 115px
+	}
+
+	#mobile-left {
+		width: 160px;
+		height: 33px
+	}
+
+	#mobile-right {
+		width: 160px;
+		height: 33px
+	}
+
+	#video-title {
+		left: -68px
+	}
+
+}
+
+@media only screen and (max-width:349px) {
+	.new-thumbnail-card {
+		height: 130px
+	}
+
+	.primary-age-range {
+		bottom: 50px
+	}
+
+	.thumbnail-name {
+		font-size: 12px
+	}
+
+	.thumbnail-name-dark {
+		font-size: 12px
+	}
+
+	.science-thumbnail-name {
+		font-size: 12px
+	}
+
+	.filter-btn {
+		margin-right: 15px;
+		margin-left: 15px
+	}
+
+	.lectores-icon-img {
+		width: 70px;
+		height: 70px
+	}
+
+	.edge-modal {
+		left: 3%;
+		right: 3%;
+		height: 330px
+	}
+
+	#load-div {
+		top: 15px
+	}
+
+	.phrase-card {
+		width: 240px
+	}
+
+	.riddle-btn-col {
+		text-align: center
+	}
+
+	#video-title {
+		left: -73px
+	}
+
+}
+
+@media only screen and (max-width:340px) {
+	#animal-title {
+		right: 10px
+	}
+
+	#dibujos-title {
+		right: 27px
+	}
+
+	#english-text-container {
+		right: 0px
+	}
+
+	#english-title {
+		right: 15px
+	}
+
+	#frases-title {
+		right: 40px
+	}
+
+	#joke-title {
+		right: 27px
+	}
+
+	#math-title {
+		right: 0px
+	}
+
+	#multiplication-title {
+		right: 27px
+	}
+
+	#navidad-title {
+		right: 10px
+	}
+
+	#riddle-title {
+		right: 35px
+	}
+
+	#science-title {
+		right: 0px
+	}
+
+	#trabalenguas-title {
+		right: 35px
+	}
+
+}
+
+@media only screen and (max-width:339px) {
+	.stars {
+		width: 50px
+	}
+
+	.testimonial-name {
+		font-size: 14px
+	}
+
+	.testimonial-text {
+		margin-left: 0;
+		margin-right: 0
+	}
+
+	.name-star-div {
+		text-align: left
+	}
+
+	.character-icons {
+		right: 15px
+	}
+
+	.experimentArrowPrev {
+		left: -20px
+	}
+
+	.experimentArrowNext {
+		right: -12px
+	}
+
+	#mobile-left {
+		width: 150px;
+		height: 31px
+	}
+
+	#mobile-right {
+		width: 150px;
+		height: 31px
+	}
+
+}
+
+@media only screen and (max-width:331px) {
+	.nav-btn {
+		font-size: 8px;
+		margin-right: 2px;
+		margin-left: 2px
+	}
+
+	.nav-item {
+		font-size: .75rem
+	}
+
+}
+
+@media only screen and (max-width:329px) {
+	#canciones-title {
+		left: -63px
+	}
+
+	#video-title {
+		left: -73px
+	}
+
+	.curriculum-icon-title {
+		position: relative;
+		left: 10px
+	}
+
+	.curriculum-img-sm {
+		position: relative;
+		left: 10px
+	}
+
+}
+
+@media only screen and (max-width:319px) {
+	.curriculum-icon-title {
+		position: static;
+		font-size: 15px
+	}
+
+	.curriculum-img-sm {
+		position: static;
+		width: 40px;
+		height: 40px
+	}
+
+	#mobile-left {
+		width: 140px;
+		height: 30px
+	}
+
+	#mobile-right {
+		width: 140px;
+		height: 30px
+	}
+
+	.primary-age-range {
+		display: none
+	}
+
+}
+
+@media only screen and (max-width:309px) {
+	.filter-btn {
+		margin-right: 10px;
+		margin-left: 10px
+	}
+
+}
+
+@media only screen and (max-width:299px) {
+	.phrase-card {
+		width: 210px
+	}
+
+}
+
+@media (min-width:375px) {
+	#sticky-container {
+		bottom: 16px;
+		right: 16px;
+		width: 320px;
+		height: 180px
+	}
+
+	#new-video-container {
+		width: 320px;
+		height: 180px
+	}
+
+}
+
+@media (min-width:480px) {
+	#sticky-container {
+		bottom: 20px;
+		right: 20px;
+		width: 384px;
+		height: 216px
+	}
+
+	#new-video-container {
+		width: 384px;
+		height: 216px
+	}
+
+}
+
+@media (min-width:640px) {
+	#sticky-container {
+		width: 400px;
+		height: 225px
+	}
+
+	#new-video-container {
+		width: 400px;
+		height: 225px
+	}
+
+}
+
+@media print {
+	.display-none {
+		display: none
+	}
+
+	#prinatable-puzzle-page {
+		overflow: visible
+	}
+
+	#dibujo-img-div {
+		display: block;
+		text-align: center
+	}
+
+	.landscape-img {
+		position: absolute;
+		top: 220px;
+		right: -200px;
+		display: block;
+		width: 142.5%;
+		margin: auto;
+		transform: rotate(90deg)
+	}
+
+	.portrait-img {
+		position: absolute;
+		top: 45px;
+		left: -67.5px;
+		width: 114%
+	}
+
+	.portrait-puzzle {
+		position: relative;
+		top: 30px;
+		left: -340px;
+		width: 170%
+	}
+
+}
